@@ -1,0 +1,25 @@
+[2025-05-08T16:56:39.293Z] Initializing configuration support...
+[2025-05-08T16:56:39.304Z] Internal initialization of dev container support package...
+[2025-05-08T16:56:39.294Z] Dev Containers 0.409.0 in VS Code 1.99.3 (17baf841131aa23349f217ca7c570c76ee87b957).
+[2025-05-08T16:57:48.929Z] Start: Run: docker version --format {{json .}}
+[2025-05-08T16:57:49.075Z] {"Client":{"Version":"28.0.4","ApiVersion":"1.48","DefaultAPIVersion":"1.48","GitCommit":"b8034c0ed7","GoVersion":"go1.24.1","Os":"linux","Arch":"amd64","BuildTime":"Thu Apr  3 10:43:40 2025","Context":"default"},"Server":{"Platform":{"Name":""},"Components":[{"Name":"Engine","Version":"28.0.4","Details":{"ApiVersion":"1.48","Arch":"amd64","BuildTime":"Thu Apr  3 10:43:40 2025","Experimental":"false","GitCommit":"6430e49a55","GoVersion":"go1.24.1","KernelVersion":"6.12.21-4-MANJARO","MinAPIVersion":"1.24","Os":"linux"}},{"Name":"containerd","Version":"v2.0.4","Details":{"GitCommit":"1a43cb6a1035441f9aca8f5666a9b3ef9e70ab20.m"}},{"Name":"runc","Version":"1.2.6","Details":{"GitCommit":""}},{"Name":"docker-init","Version":"0.19.0","Details":{"GitCommit":"de40ad0"}}],"Version":"28.0.4","ApiVersion":"1.48","MinAPIVersion":"1.24","GitCommit":"6430e49a55","GoVersion":"go1.24.1","Os":"linux","Arch":"amd64","KernelVersion":"6.12.21-4-MANJARO","BuildTime":"2025-04-03T10:43:40.000000000+00:00"}}
+[2025-05-08T16:57:49.096Z] Stop (167 ms): Run: docker version --format {{json .}}
+[2025-05-08T16:57:49.229Z] Running Dev Containers CLI:   read-configuration --workspace-folder /home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend --log-level debug --log-format json --config /home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root
+[2025-05-08T16:57:49.236Z] Start: Run: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend --log-level debug --log-format json --config /home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root
+[2025-05-08T16:57:50.458Z] @devcontainers/cli 0.75.0. Node.js v20.18.3. linux 6.12.21-4-MANJARO x64.
+[2025-05-08T16:57:50.458Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend --filter label=devcontainer.config_file=/home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend/.devcontainer/devcontainer.json
+[2025-05-08T16:57:50.560Z] Stop (102 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend --filter label=devcontainer.config_file=/home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend/.devcontainer/devcontainer.json
+[2025-05-08T16:57:50.567Z] Start: Run: docker inspect --type container 052db7b7d557
+[2025-05-08T16:57:50.641Z] Stop (74 ms): Run: docker inspect --type container 052db7b7d557
+[2025-05-08T16:57:50.700Z] Stop (1464 ms): Run: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.409.0/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend --log-level debug --log-format json --config /home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root
+[2025-05-08T16:57:50.719Z] Start: Run: docker compose version --short
+[2025-05-08T16:57:50.977Z] Stop (258 ms): Run: docker compose version --short
+[2025-05-08T16:57:50.977Z] Docker Compose version: 2.34.0
+[2025-05-08T16:57:50.978Z] Start: Run: docker compose version --short
+[2025-05-08T16:57:51.150Z] Stop (172 ms): Run: docker compose version --short
+[2025-05-08T16:57:51.151Z] 2.34.0
+[2025-05-08T16:57:51.151Z] 
+[2025-05-08T16:57:51.155Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend --filter label=devcontainer.config_file=/home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend/.devcontainer/devcontainer.json
+[2025-05-08T16:57:51.228Z] Stop (73 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend --filter label=devcontainer.config_file=/home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend/.devcontainer/devcontainer.json
+[2025-05-08T16:57:51.229Z] Start: Run: docker inspect --type container 052db7b7d557
+[2025-05-08T16:57:51.304Z] Stop (75 ms): Run: docker inspect --type container 052db7b7d557

@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  'app':
+    image: vsc-virtualtruck-frontend-a2178b6ed2d172f0c955677e09fe0ec27af461b843f03d4de96fa8e9d92bb20b-uid
+    entrypoint: ["/bin/sh", "-c", "echo Container started\n
+trap \"exit 0\" 15\n
+\n
+exec \"$$@\"\n
+while sleep 1 & wait $$!; do :; done", "-", "docker-entrypoint.sh"]
+    labels:
+      - 'devcontainer.local_folder=/home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend'
+      - 'devcontainer.config_file=/home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend/.devcontainer/devcontainer.json'
+    volumes:
+      - 0tm2b8fl7eskc5pb8vk252g0ckgnptrjjekoe4hnrkk0hv361ekq-shellhistory:/dc/shellhistory
+      - vscode:/vscode
+volumes:
+  
+  0tm2b8fl7eskc5pb8vk252g0ckgnptrjjekoe4hnrkk0hv361ekq-shellhistory:
+  
+  vscode:
+    external: true

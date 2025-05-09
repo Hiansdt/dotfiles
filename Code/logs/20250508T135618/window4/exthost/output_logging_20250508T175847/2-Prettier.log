@@ -1,0 +1,68 @@
+["INFO" - 5:58:54 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 5:58:54 PM] Extension Version: 11.0.0.
+["INFO" - 6:01:08 PM] Formatting file:///home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/src/sessions/controller/sessionPaymentController.ts
+["INFO" - 6:01:08 PM] PrettierInstance:
+{
+  "modulePath": "/home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.3.3"
+}
+["INFO" - 6:01:08 PM] Using ignore file (if present) at /home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/.prettierignore
+["INFO" - 6:01:08 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 6:01:08 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 6:01:08 PM] Prettier Options:
+{
+  "filepath": "/home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/src/sessions/controller/sessionPaymentController.ts",
+  "parser": "typescript",
+  "useTabs": false,
+  "tabWidth": 2
+}
+["INFO" - 6:01:08 PM] Formatting completed in 245ms.
+["INFO" - 6:01:27 PM] Formatting file:///home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/src/sessions/controller/sessionPaymentController.ts
+["INFO" - 6:01:27 PM] PrettierInstance:
+{
+  "modulePath": "/home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.3.3"
+}
+["INFO" - 6:01:27 PM] Using ignore file (if present) at /home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/.prettierignore
+["INFO" - 6:01:27 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 6:01:27 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 6:01:27 PM] Prettier Options:
+{
+  "filepath": "/home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/src/sessions/controller/sessionPaymentController.ts",
+  "parser": "typescript",
+  "useTabs": false,
+  "tabWidth": 2
+}
+["INFO" - 6:01:27 PM] Formatting completed in 107ms.
+["INFO" - 6:47:56 PM] Formatting file:///home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/src/cash/infra/pages/cashRegister/ViewCashDetails.vue
+["INFO" - 6:47:56 PM] PrettierInstance:
+{
+  "modulePath": "/home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.3.3"
+}
+["INFO" - 6:47:56 PM] Using ignore file (if present) at /home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/.prettierignore
+["INFO" - 6:47:56 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "vue"
+}
+["INFO" - 6:47:56 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 6:47:56 PM] Prettier Options:
+{
+  "filepath": "/home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/src/cash/infra/pages/cashRegister/ViewCashDetails.vue",
+  "parser": "vue",
+  "useTabs": false,
+  "tabWidth": 2
+}
+["INFO" - 6:47:56 PM] Formatting completed in 216ms.

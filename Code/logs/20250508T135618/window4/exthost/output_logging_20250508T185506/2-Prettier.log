@@ -1,0 +1,46 @@
+["INFO" - 6:55:12 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 6:55:12 PM] Extension Version: 11.0.0.
+["INFO" - 6:57:45 PM] Formatting file:///home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/src/cash/infra/components/cash/ExtractTotals.vue
+["INFO" - 6:57:45 PM] PrettierInstance:
+{
+  "modulePath": "/home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.3.3"
+}
+["INFO" - 6:57:45 PM] Using ignore file (if present) at /home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/.prettierignore
+["INFO" - 6:57:45 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "vue"
+}
+["INFO" - 6:57:45 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 6:57:45 PM] Prettier Options:
+{
+  "filepath": "/home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/src/cash/infra/components/cash/ExtractTotals.vue",
+  "parser": "vue",
+  "useTabs": false,
+  "tabWidth": 2
+}
+["INFO" - 6:57:45 PM] Formatting completed in 280ms.
+["INFO" - 10:21:52 AM] Formatting file:///home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/src/cash/infra/pages/cashRegister/ViewCashDetails.vue
+["INFO" - 10:21:52 AM] PrettierInstance:
+{
+  "modulePath": "/home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.3.3"
+}
+["INFO" - 10:21:52 AM] Using ignore file (if present) at /home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/.prettierignore
+["INFO" - 10:21:52 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "vue"
+}
+["INFO" - 10:21:52 AM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 10:21:52 AM] Prettier Options:
+{
+  "filepath": "/home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-frontend/src/cash/infra/pages/cashRegister/ViewCashDetails.vue",
+  "parser": "vue",
+  "useTabs": false,
+  "tabWidth": 2
+}
+["INFO" - 10:21:52 AM] Formatting completed in 132ms.

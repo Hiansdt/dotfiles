@@ -1,0 +1,51 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "assets/img/icons/main-icon.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "content-scripts/icon-events.js" ],
+      "matches": [ "https://*/*", "http://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "content-scripts/check-website.js", "content-scripts/inject-store-scrapers.js" ],
+      "matches": [ "https://*/*", "http://*/*" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "content-scripts/cuponomia.js" ],
+      "matches": [ "*://*.cuponomia.com.br/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "content-scripts/check-google-search.js" ],
+      "matches": [ "http://www.google.com/*", "https://www.google.com/*", "https://www.google.com.br/*", "http://www.google.com.br/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "content-scripts/check-bing-search.js" ],
+      "matches": [ "http://www.bing.com/*", "https://www.bing.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "description": "O Cuponomia te avisa sempre que existir Cupons ou Cashback para a loja que estiver comprando. Economia em apenas um clique!",
+   "homepage_url": "https://www.cuponomia.com.br",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "assets/img/icons/main-icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiGsLeTozFH3mR85fHAeaawp7PKCz9Wh134L9M025ckGVCqoNcW/qSfaNOFj5yJ+pVgalfQjbVtDHJMzcWb8jNniJEp2eY8w0Ry2ynmgtzUjdLYEKM8l8fQP26D/r0pMm/qzXXyrsaREnDMxSKlIirgX6hwRDf6rEfL61OEaRKLuZZbm2DbJxNP6j8zjt2f9yF1ygODY3HOPXpkJyfFulkuBNfrbHI5UbUiT+77WsN7sdj7+Vy4XkOibnYQUZsXh90bGpwmjytkQqt6oRRZMPYxCYLf0DAiwGW3iG0T+v5ciHS/Wy3jg4x+Ovb5nmIZFgekQYuK9ClIZjrDitQhXUBwIDAQAB",
+   "manifest_version": 3,
+   "name": "Cuponomia - Cupom e Cashback",
+   "permissions": [ "tabs", "storage", "cookies", "webRequest", "scripting", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.23.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "*.json", "*.css", "*.html", "*.png", "*.svg", "*.js", "*.woff", "*.woff2", "*.mp4" ]
+   } ]
+}

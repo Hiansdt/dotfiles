@@ -1,0 +1,35 @@
+2025-05-08 13:56:39.203 [info] [main] Log level: Info
+2025-05-08 13:56:39.203 [info] [main] Validating found git in: "git"
+2025-05-08 13:56:39.203 [info] [main] Using git "2.49.0" from "git"
+2025-05-08 13:56:39.203 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-08 13:56:39.203 [info] > git rev-parse --show-toplevel [2401ms]
+2025-05-08 13:56:39.203 [info] > git rev-parse --git-dir --git-common-dir [164ms]
+2025-05-08 13:56:39.203 [info] [Model][openRepository] Opened repository: /home/hiansdt/Documents/Projects/c3labs/vparking/VirtualTruck-frontend
+2025-05-08 13:56:39.454 [info] > git rev-parse --show-toplevel [161ms]
+2025-05-08 13:56:39.455 [info] > git config --get commit.template [184ms]
+2025-05-08 13:56:39.576 [info] > git rev-parse --show-toplevel [46ms]
+2025-05-08 13:56:39.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [46ms]
+2025-05-08 13:56:39.623 [info] > git rev-parse --show-toplevel [17ms]
+2025-05-08 13:56:39.746 [info] > git rev-parse --show-toplevel [46ms]
+2025-05-08 13:56:39.867 [info] > git status -z -uall [49ms]
+2025-05-08 13:56:39.875 [info] > git rev-parse --show-toplevel [23ms]
+2025-05-08 13:56:39.879 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-08 13:56:39.906 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [68ms]
+2025-05-08 13:56:39.961 [info] > git show --textconv :src/company/infra/pages/employee/index.vue [67ms]
+2025-05-08 13:56:39.991 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [62ms]
+2025-05-08 13:56:40.004 [info] > git ls-files --stage -- src/company/infra/pages/employee/index.vue [99ms]
+2025-05-08 13:56:40.075 [info] > git check-ignore -v -z --stdin [49ms]
+2025-05-08 13:56:40.082 [info] > git cat-file -s e25ceb2c4faeb44786fbf00ad6302bae1f75ccf7 [67ms]
+2025-05-08 13:56:40.083 [info] > git config --get --local branch.dev.vscode-merge-base [79ms]
+2025-05-08 13:56:40.113 [info] > git config --get commit.template [153ms]
+2025-05-08 13:56:40.160 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/dev refs/remotes/origin/dev [48ms]
+2025-05-08 13:56:40.211 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [35ms]
+2025-05-08 13:56:40.271 [info] > git diff --name-status -z --diff-filter=ADMR 460df4a7cf627ab30ca4cb5662fa970c2aeba831...refs/remotes/origin/dev [49ms]
+2025-05-08 13:56:40.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [67ms]
+2025-05-08 13:56:40.393 [info] > git status -z -uall [46ms]
+2025-05-08 13:56:40.394 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [26ms]
+2025-05-08 13:56:40.478 [info] > git blame --root --incremental 460df4a7cf627ab30ca4cb5662fa970c2aeba831 -- src/company/infra/pages/employee/index.vue [89ms]
+2025-05-08 13:57:41.992 [info] > git config --get commit.template [42ms]
+2025-05-08 13:57:41.995 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [4ms]
+2025-05-08 13:57:42.086 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-08 13:57:42.123 [info] > git status -z -uall [91ms]

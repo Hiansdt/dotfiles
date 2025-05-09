@@ -1,0 +1,28 @@
+2025-05-08 13:56:59.172 [info] [main] Log level: Info
+2025-05-08 13:56:59.172 [info] [main] Validating found git in: "git"
+2025-05-08 13:56:59.172 [info] [main] Using git "2.49.0" from "git"
+2025-05-08 13:56:59.172 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-08 13:56:59.172 [info] > git rev-parse --show-toplevel [52ms]
+2025-05-08 13:56:59.172 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-05-08 13:56:59.172 [info] [Model][openRepository] Opened repository: /home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-backend
+2025-05-08 13:56:59.195 [info] > git config --get commit.template [1127ms]
+2025-05-08 13:57:00.037 [info] > git check-ignore -v -z --stdin [118ms]
+2025-05-08 13:57:00.047 [info] > git rev-parse --show-toplevel [278ms]
+2025-05-08 13:57:00.138 [info] > git rev-parse --show-toplevel [69ms]
+2025-05-08 13:57:00.194 [info] > git rev-parse --show-toplevel [12ms]
+2025-05-08 13:57:00.211 [info] > git rev-parse --show-toplevel [5ms]
+2025-05-08 13:57:00.262 [info] > git rev-parse --show-toplevel [17ms]
+2025-05-08 13:57:00.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/CASH-52 refs/remotes/CASH-52 [247ms]
+2025-05-08 13:57:00.280 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-08 13:57:00.284 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-08 13:57:00.355 [info] > git status -z -uall [56ms]
+2025-05-08 13:57:00.800 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [488ms]
+2025-05-08 13:57:00.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/CASH-52 refs/remotes/CASH-52 [52ms]
+2025-05-08 13:57:00.968 [info] > git config --get --local branch.CASH-52.vscode-merge-base [9ms]
+2025-05-08 13:57:00.979 [info] > git config --get commit.template [30ms]
+2025-05-08 13:57:01.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/CASH-52 refs/remotes/origin/CASH-52 [24ms]
+2025-05-08 13:57:01.023 [info] > git merge-base refs/heads/CASH-52 refs/remotes/origin/CASH-52 [11ms]
+2025-05-08 13:57:01.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/CASH-52 refs/remotes/CASH-52 [13ms]
+2025-05-08 13:57:01.035 [info] > git diff --name-status -z --diff-filter=ADMR 547e5b2f5cc6f4f151e0bc182f41477c6ab29e4d...refs/remotes/origin/CASH-52 [4ms]
+2025-05-08 13:57:01.061 [info] > git status -z -uall [16ms]
+2025-05-08 13:57:01.061 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
