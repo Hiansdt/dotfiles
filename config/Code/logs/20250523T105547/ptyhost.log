@@ -1,0 +1,4 @@
+2025-05-23 10:55:48.635 [error] Failed to set sticky bit on /tmp/hiansdt-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/hiansdt-code-zsh'
+2025-05-23 11:12:17.877 [info] Expanding terminal instance, old id 06a89579f7de818d906d92e50a058845-2 -> new id undefined
+2025-05-23 11:12:18.187 [info] Persistent process reconnection "2"
+2025-05-23 11:12:18.200 [info] Persistent process "2": Replaying 1291 chars and 1 size events

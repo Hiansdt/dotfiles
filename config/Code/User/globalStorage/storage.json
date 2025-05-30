@@ -1,0 +1,97 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "474ee817959ebc724e75a4872c247b3d24120ebf690bc3af515dd6956ea4e06e",
+    "telemetry.devDeviceId": "1b3e3470-063d-476a-a764-f3e914322f0f",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1748582629868"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/hiansdt": "__default__profile__",
+            "file:///home/hiansdt/projects/c3labs/vita/enchiridion-backend": "__default__profile__",
+            "vscode-remote://dev-container%2B7b22686f737450617468223a222f686f6d652f6869616e7364742f70726f6a656374732f63336c6162732f766974612f656e636869726964696f6e2d6261636b656e64222c226c6f63616c446f636b6572223a66616c73652c22636f6e66696746696c65223a7b22246d6964223a312c22667350617468223a222f686f6d652f6869616e7364742f70726f6a656374732f63336c6162732f766974612f656e636869726964696f6e2d6261636b656e642f2e646576636f6e7461696e65722f646576636f6e7461696e65722e6a736f6e222c2265787465726e616c223a2266696c653a2f2f2f686f6d652f6869616e7364742f70726f6a656374732f63336c6162732f766974612f656e636869726964696f6e2d6261636b656e642f2e646576636f6e7461696e65722f646576636f6e7461696e65722e6a736f6e222c2270617468223a222f686f6d652f6869616e7364742f70726f6a656374732f63336c6162732f766974612f656e636869726964696f6e2d6261636b656e642f2e646576636f6e7461696e65722f646576636f6e7461696e65722e6a736f6e222c22736368656d65223a2266696c65227d7d/home/python/app": "__default__profile__",
+            "file:///home/hiansdt/projects/c3labs/vita/enchiridion-frontend": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1748463278536": "__default__profile__",
+            "1748539367677": "__default__profile__",
+            "1748582388537": "__default__profile__",
+            "1748582629868": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e2e",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cdd6f4",
+            "background": "#1e1e2e",
+            "editorBackground": "#1e1e2e",
+            "titleBarBackground": "#11111b",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#11111b",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#181825",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#11111b",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#11111b",
+            "windowBorder": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 236,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "60c4cd6a77d35524f906b97e1182a202": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "856fed633f63c3bc7a57126130423c5f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "710a4a868fb80b152c9d674105921fe7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "06a89579f7de818d906d92e50a058845": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/hiansdt/.config/Code/Backups/1748582629868",
+            "uiState": {
+                "mode": 1,
+                "x": 964,
+                "y": 11,
+                "width": 945,
+                "height": 1034
+            }
+        },
+        "openedWindows": []
+    }
+}

@@ -1,0 +1,45 @@
+2025-05-23 10:51:07.665 [info] [main] Log level: Info
+2025-05-23 10:51:07.665 [info] [main] Validating found git in: "git"
+2025-05-23 10:51:07.665 [info] [main] Using git "2.49.0" from "git"
+2025-05-23 10:51:07.665 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-23 10:51:07.665 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-23 10:51:07.665 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2025-05-23 10:51:07.665 [info] [Model][openRepository] Opened repository (path): /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+2025-05-23 10:51:07.665 [info] [Model][openRepository] Opened repository (real path): /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+2025-05-23 10:51:07.666 [info] > git config --get commit.template [3ms]
+2025-05-23 10:51:07.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [17ms]
+2025-05-23 10:51:07.692 [info] > git rev-parse --show-toplevel [21ms]
+2025-05-23 10:51:07.698 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.git/refs/remotes/origin/dev'
+2025-05-23 10:51:07.702 [info] > git rev-parse refs/remotes/origin/dev [5ms]
+2025-05-23 10:51:07.713 [info] > git rev-parse --show-toplevel [11ms]
+2025-05-23 10:51:07.719 [info] > git status -z -uall [12ms]
+2025-05-23 10:51:07.719 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-05-23 10:51:07.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [6ms]
+2025-05-23 10:51:07.743 [info] > git rev-parse --show-toplevel [25ms]
+2025-05-23 10:51:07.758 [info] > git config --get --local branch.dev.vscode-merge-base [15ms]
+2025-05-23 10:51:07.758 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-23 10:51:07.762 [info] > git config --get commit.template [25ms]
+2025-05-23 10:51:07.762 [info] > git rev-parse --show-toplevel [5ms]
+2025-05-23 10:51:07.770 [info] > git reflog dev --grep-reflog=branch: Created from *. [9ms]
+2025-05-23 10:51:07.775 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-23 10:51:07.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [9ms]
+2025-05-23 10:51:07.785 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.git/refs/remotes/origin/dev'
+2025-05-23 10:51:07.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/dev [12ms]
+2025-05-23 10:51:07.790 [info] > git rev-parse refs/remotes/origin/dev [5ms]
+2025-05-23 10:51:07.798 [info] > git rev-parse --show-toplevel [16ms]
+2025-05-23 10:51:07.800 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-23 10:51:07.801 [info] > git status -z -uall [7ms]
+2025-05-23 10:51:07.801 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-23 10:51:07.807 [info] > git config --add --local branch.dev.vscode-merge-base origin/dev [17ms]
+2025-05-23 10:51:07.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [14ms]
+2025-05-23 10:51:07.826 [info] > git config --get --local branch.dev.vscode-merge-base [1ms]
+2025-05-23 10:51:07.831 [info] > git config --get commit.template [14ms]
+2025-05-23 10:51:07.835 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/dev refs/remotes/origin/dev [4ms]
+2025-05-23 10:51:07.841 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [7ms]
+2025-05-23 10:51:07.845 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.git/refs/remotes/origin/dev'
+2025-05-23 10:51:07.846 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [5ms]
+2025-05-23 10:51:07.851 [info] > git rev-parse refs/remotes/origin/dev [6ms]
+2025-05-23 10:51:07.860 [info] > git status -z -uall [5ms]
+2025-05-23 10:51:07.860 [info] > git diff --name-status -z --diff-filter=ADMR 089724668ae54695efb3fd82e12b1dc110c04e16...refs/remotes/origin/dev [10ms]
+2025-05-23 10:51:07.861 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-23 10:51:08.159 [info] > git check-ignore -v -z --stdin [3ms]

@@ -1,0 +1,117 @@
+2025-05-23 23:39:28.190 [info] [main] Log level: Info
+2025-05-23 23:39:28.190 [info] [main] Validating found git in: "git"
+2025-05-23 23:39:28.190 [info] [main] Using git "2.49.0" from "git"
+2025-05-23 23:39:28.190 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-23 23:39:28.190 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-23 23:39:28.190 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.190 [info] > git rev-parse --show-toplevel [49ms]
+2025-05-23 23:39:28.190 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.255 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 23:39:28.255 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.272 [info] > git rev-parse --show-toplevel [12ms]
+2025-05-23 23:39:28.272 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.280 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 23:39:28.280 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.285 [info] > git rev-parse --show-toplevel [0ms]
+2025-05-23 23:39:28.285 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.292 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 23:39:28.292 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.297 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 23:39:28.297 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.306 [info] > git rev-parse --show-toplevel [5ms]
+2025-05-23 23:39:28.306 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.312 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 23:39:28.312 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.317 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 23:39:28.317 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.323 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 23:39:28.323 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.328 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 23:39:28.333 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-05-23 23:39:28.340 [info] [Model][openRepository] Opened repository (path): /home/hiansdt/.oh-my-zsh
+2025-05-23 23:39:28.340 [info] [Model][openRepository] Opened repository (real path): /home/hiansdt/.oh-my-zsh
+2025-05-23 23:39:28.351 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 23:39:28.351 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.351 [info] > git config --get commit.template [5ms]
+2025-05-23 23:39:28.363 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-23 23:39:28.363 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-05-23 23:39:28.367 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 23:39:28.367 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.382 [info] > git rev-parse --show-toplevel [11ms]
+2025-05-23 23:39:28.382 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.387 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-05-23 23:39:28.388 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 23:39:28.388 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:28.390 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-23 23:39:28.485 [info] > git status -z -uall [109ms]
+2025-05-23 23:39:28.498 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-05-23 23:39:28.503 [info] > git config --get --local branch.master.vscode-merge-base [1ms]
+2025-05-23 23:39:28.507 [info] > git config --get commit.template [9ms]
+2025-05-23 23:39:28.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [4ms]
+2025-05-23 23:39:28.516 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-05-23 23:39:28.517 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2025-05-23 23:39:28.528 [info] > git diff --name-status -z --diff-filter=ADMR 0354add542b6d769dbe39e10eb0caa0a11b2b716...refs/remotes/origin/master [7ms]
+2025-05-23 23:39:28.529 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-23 23:39:28.545 [info] > git status -z -uall [21ms]
+2025-05-23 23:39:28.867 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-23 23:39:29.409 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 23:39:29.409 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-05-23 23:39:45.141 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 23:39:45.147 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-05-23 23:39:45.149 [info] [Model][openRepository] Opened repository (path): /home/hiansdt/dotfile-repos/kurealnum/dotfiles
+2025-05-23 23:39:45.149 [info] [Model][openRepository] Opened repository (real path): /home/hiansdt/dotfile-repos/kurealnum/dotfiles
+2025-05-23 23:39:45.159 [info] > git config --get commit.template [6ms]
+2025-05-23 23:39:45.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [98ms]
+2025-05-23 23:39:45.267 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hiansdt/dotfile-repos/kurealnum/dotfiles/.git/refs/remotes/origin/main'
+2025-05-23 23:39:45.278 [info] > git rev-parse refs/remotes/origin/main [11ms]
+2025-05-23 23:39:45.292 [info] > git status -z -uall [8ms]
+2025-05-23 23:39:45.296 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-05-23 23:39:45.312 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-05-23 23:39:45.318 [info] > git config --get commit.template [7ms]
+2025-05-23 23:39:45.326 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2025-05-23 23:39:45.326 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-23 23:39:45.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-05-23 23:39:45.341 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hiansdt/dotfile-repos/kurealnum/dotfiles/.git/refs/remotes/origin/main'
+2025-05-23 23:39:45.341 [info] > git reflog main --grep-reflog=branch: Created from *. [8ms]
+2025-05-23 23:39:45.348 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-05-23 23:39:45.358 [info] > git status -z -uall [5ms]
+2025-05-23 23:39:45.359 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [12ms]
+2025-05-23 23:39:45.364 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-05-23 23:39:45.372 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2025-05-23 23:39:45.378 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-05-23 23:39:45.384 [info] > git config --add --local branch.main.vscode-merge-base origin/main [6ms]
+2025-05-23 23:39:45.390 [info] > git config --get --local branch.main.vscode-merge-base [6ms]
+2025-05-23 23:39:45.396 [info] > git config --get commit.template [6ms]
+2025-05-23 23:39:45.400 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-05-23 23:39:45.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-05-23 23:39:45.411 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hiansdt/dotfile-repos/kurealnum/dotfiles/.git/refs/remotes/origin/main'
+2025-05-23 23:39:45.412 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2025-05-23 23:39:45.418 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-05-23 23:39:45.432 [info] > git status -z -uall [8ms]
+2025-05-23 23:39:45.432 [info] > git diff --name-status -z --diff-filter=ADMR 489b01590f29acf00d99867b5ac650750b29ed7f...refs/remotes/origin/main [14ms]
+2025-05-23 23:39:45.445 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2025-05-23 23:39:45.564 [info] > git show --textconv :README.md [34ms]
+2025-05-23 23:39:45.564 [info] > git ls-files --stage -- README.md [27ms]
+2025-05-23 23:39:45.572 [info] > git cat-file -s e6af3a2a800da2a74a3b619768d3c7d678b671d1 [2ms]
+2025-05-23 23:39:45.778 [info] > git check-ignore -v -z --stdin [7ms]
+2025-05-23 23:39:45.778 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-23 23:39:46.012 [info] > git blame --root --incremental 489b01590f29acf00d99867b5ac650750b29ed7f -- README.md [7ms]
+2025-05-23 23:39:46.602 [info] > git config --get commit.template [12ms]
+2025-05-23 23:39:46.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-23 23:39:46.610 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hiansdt/dotfile-repos/kurealnum/dotfiles/.git/refs/remotes/origin/main'
+2025-05-23 23:39:46.612 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-23 23:39:46.625 [info] > git status -z -uall [6ms]
+2025-05-23 23:39:46.626 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-23 23:39:46.692 [info] > git ls-files --stage -- README.md [2ms]
+2025-05-23 23:39:46.700 [info] > git cat-file -s e6af3a2a800da2a74a3b619768d3c7d678b671d1 [2ms]
+2025-05-23 23:39:46.710 [info] > git show --textconv :README.md [2ms]
+2025-05-23 23:40:40.029 [info] > git config --get commit.template [7ms]
+2025-05-23 23:40:40.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-05-23 23:40:40.045 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hiansdt/dotfile-repos/kurealnum/dotfiles/.git/refs/remotes/origin/main'
+2025-05-23 23:40:40.045 [info] > git ls-files --stage -- README.md [6ms]
+2025-05-23 23:40:40.052 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-05-23 23:40:40.062 [info] > git status -z -uall [5ms]
+2025-05-23 23:40:40.062 [info] > git cat-file -s e6af3a2a800da2a74a3b619768d3c7d678b671d1 [11ms]
+2025-05-23 23:40:40.063 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-23 23:40:40.071 [info] > git show --textconv :README.md [1ms]

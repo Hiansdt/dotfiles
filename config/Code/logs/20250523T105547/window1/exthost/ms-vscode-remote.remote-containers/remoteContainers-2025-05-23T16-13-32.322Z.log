@@ -1,0 +1,635 @@
+[2025-05-23T16:13:32.346Z] Dev Containers 0.413.0 in VS Code 1.100.2 (848b80aeb52026648a8ff9f7c45a9b0a80641e2e).
+[2025-05-23T16:13:32.346Z] Start: Resolving Remote
+[2025-05-23T16:13:32.357Z] Setting up container for folder or workspace: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+[2025-05-23T16:13:32.385Z] Start: Check Docker is running
+[2025-05-23T16:13:32.385Z] Start: Run: docker version
+[2025-05-23T16:13:32.402Z] Client:
+ Version:           28.1.1
+ API version:       1.49
+ Go version:        go1.24.2
+ Git commit:        4eba377327
+ Built:             Mon Apr 21 13:12:23 2025
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server:
+ Engine:
+[2025-05-23T16:13:32.403Z]   Version:          28.1.1
+  API version:      1.49 (minimum version 1.24)
+  Go version:       go1.24.2
+  Git commit:       01f442b84d
+  Built:            Mon Apr 21 13:12:23 2025
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v2.1.1
+  GitCommit:        cb1076646aa3740577fafbf3d914198b7fe8e3f7.m
+ runc:
+  Version:          1.3.0
+  GitCommit:        
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+[2025-05-23T16:13:32.405Z] Stop (20 ms): Run: docker version
+[2025-05-23T16:13:32.405Z] Stop (20 ms): Check Docker is running
+[2025-05-23T16:13:32.405Z] Start: Run: docker volume ls -q
+[2025-05-23T16:13:32.426Z] Stop (21 ms): Run: docker volume ls -q
+[2025-05-23T16:13:32.427Z] Start: Run: docker ps -q -a --filter label=vsch.local.folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=vsch.quality=stable
+[2025-05-23T16:13:32.445Z] Stop (18 ms): Run: docker ps -q -a --filter label=vsch.local.folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=vsch.quality=stable
+[2025-05-23T16:13:32.446Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json
+[2025-05-23T16:13:32.470Z] Stop (24 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json
+[2025-05-23T16:13:32.470Z] Start: Run: docker inspect --type container bc8a19ed15fd
+[2025-05-23T16:13:32.491Z] Stop (21 ms): Run: docker inspect --type container bc8a19ed15fd
+[2025-05-23T16:13:32.492Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend
+[2025-05-23T16:13:32.519Z] Stop (27 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend
+[2025-05-23T16:13:32.519Z] Start: Run: docker inspect --type container bc8a19ed15fd
+[2025-05-23T16:13:32.543Z] Stop (24 ms): Run: docker inspect --type container bc8a19ed15fd
+[2025-05-23T16:13:32.544Z] Start: Run: docker exec -i -u root bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4 /bin/sh -c echo "Container already running. Keep-alive process started." ; export VSCODE_REMOTE_CONTAINERS_SESSION=8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701 ; /bin/sh
+[2025-05-23T16:13:32.545Z] Running Dev Containers CLI:   up --user-data-folder /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --container-session-data-folder /tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701 --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --include-configuration --include-merged-configuration
+[2025-05-23T16:13:32.554Z] Start: Run: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --container-session-data-folder /tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701 --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --include-configuration --include-merged-configuration
+[2025-05-23T16:13:32.601Z] Container already running. Keep-alive process started.
+[2025-05-23T16:13:32.707Z] @devcontainers/cli 0.76.0. Node.js v20.19.0. linux 6.14.6-zen1-1-zen x64.
+[2025-05-23T16:13:32.707Z] Start: Run: docker buildx version
+[2025-05-23T16:13:32.721Z] Stop (14 ms): Run: docker buildx version
+[2025-05-23T16:13:32.721Z] 
+[2025-05-23T16:13:32.721Z] docker: unknown command: docker buildx
+
+Run 'docker --help' for more information
+
+[2025-05-23T16:13:32.721Z] Exit code 1
+[2025-05-23T16:13:32.721Z] Start: Run: docker -v
+[2025-05-23T16:13:32.732Z] Stop (11 ms): Run: docker -v
+[2025-05-23T16:13:32.732Z] Start: Resolving Remote
+[2025-05-23T16:13:32.737Z] Loading 144 extra certificates from /etc/ssl/certs/ca-certificates.crt.
+[2025-05-23T16:13:33.128Z] Start: Run: docker compose version --short
+[2025-05-23T16:13:33.216Z] Stop (88 ms): Run: docker compose version --short
+[2025-05-23T16:13:33.217Z] Docker Compose version: 2.36.1
+[2025-05-23T16:13:33.217Z] Start: Run: docker compose -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/docker-compose.yml -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/docker-compose.yml --profile * config
+[2025-05-23T16:13:33.276Z] Stop (59 ms): Run: docker compose -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/docker-compose.yml -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/docker-compose.yml --profile * config
+[2025-05-23T16:13:33.276Z] name: enchiridion-backend
+services:
+  app:
+    build:
+      context: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+      dockerfile: Dockerfile
+    command:
+      - /bin/sh
+      - -c
+      - while sleep 1000; do :; done
+    container_name: django_app
+    depends_on:
+      redis:
+        condition: service_started
+        required: true
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+    networks:
+      internal-network: null
+    ports:
+      - mode: ingress
+        target: 8001
+        published: "8001"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+        target: /app
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+        target: /home/python/app
+        bind:
+          create_host_path: true
+  db:
+    container_name: enchiridion-db
+    environment:
+      POSTGRES_DB: enchiridion
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres:13
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "15433"
+        protocol: tcp
+  redis:
+    command:
+      - redis-server
+      - --appendonly
+      - "yes"
+    container_name: enchiridion-backend-redis
+    image: redis:alpine
+    networks:
+      internal-network: null
+    restart: always
+    volumes:
+      - type: volume
+        source: redis_data
+        target: /data
+        volume: {}
+networks:
+  default:
+    name: enchiridion-backend_default
+  internal-network:
+    name: enchiridion-backend_internal-network
+    driver: bridge
+volumes:
+  redis_data:
+    name: enchiridion-backend_redis_data
+[2025-05-23T16:13:33.278Z] Start: Run: docker ps -q -a --filter label=com.docker.compose.project=enchiridion-backend --filter label=com.docker.compose.service=app
+[2025-05-23T16:13:33.291Z] Stop (13 ms): Run: docker ps -q -a --filter label=com.docker.compose.project=enchiridion-backend --filter label=com.docker.compose.service=app
+[2025-05-23T16:13:33.291Z] Start: Run: docker inspect --type container bc8a19ed15fd
+[2025-05-23T16:13:33.304Z] Stop (13 ms): Run: docker inspect --type container bc8a19ed15fd
+[2025-05-23T16:13:33.306Z] Start: Inspecting container
+[2025-05-23T16:13:33.306Z] Start: Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T16:13:33.320Z] Stop (14 ms): Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T16:13:33.320Z] Stop (14 ms): Inspecting container
+[2025-05-23T16:13:33.321Z] Start: Run in container: /bin/sh
+[2025-05-23T16:13:33.324Z] Start: Run in container: uname -m
+[2025-05-23T16:13:33.387Z] x86_64
+[2025-05-23T16:13:33.387Z] 
+[2025-05-23T16:13:33.387Z] Stop (63 ms): Run in container: uname -m
+[2025-05-23T16:13:33.387Z] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2025-05-23T16:13:33.389Z] PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+[2025-05-23T16:13:33.389Z] 
+[2025-05-23T16:13:33.389Z] Stop (2 ms): Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2025-05-23T16:13:33.389Z] Start: Run in container:  (command -v getent >/dev/null 2>&1 && getent passwd 'python' || grep -E '^python|^[^:]*:[^:]*:python:' /etc/passwd || true)
+[2025-05-23T16:13:33.390Z] Stop (1 ms): Run in container:  (command -v getent >/dev/null 2>&1 && getent passwd 'python' || grep -E '^python|^[^:]*:[^:]*:python:' /etc/passwd || true)
+[2025-05-23T16:13:33.390Z] Start: Run in container: test -f '/var/devcontainer/.patchEtcEnvironmentMarker'
+[2025-05-23T16:13:33.391Z] 
+[2025-05-23T16:13:33.391Z] 
+[2025-05-23T16:13:33.391Z] Stop (1 ms): Run in container: test -f '/var/devcontainer/.patchEtcEnvironmentMarker'
+[2025-05-23T16:13:33.391Z] Start: Run in container: test -f '/var/devcontainer/.patchEtcProfileMarker'
+[2025-05-23T16:13:33.392Z] 
+[2025-05-23T16:13:33.392Z] 
+[2025-05-23T16:13:33.392Z] Stop (1 ms): Run in container: test -f '/var/devcontainer/.patchEtcProfileMarker'
+[2025-05-23T16:13:33.392Z] Stop (660 ms): Resolving Remote
+[2025-05-23T16:13:33.396Z] Stop (842 ms): Run: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --container-session-data-folder /tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701 --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --include-configuration --include-merged-configuration
+[2025-05-23T16:13:33.396Z] Start: Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T16:13:33.409Z] Stop (13 ms): Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T16:13:33.410Z] Start: Inspecting container
+[2025-05-23T16:13:33.410Z] Start: Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T16:13:33.424Z] Stop (14 ms): Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T16:13:33.425Z] Stop (15 ms): Inspecting container
+[2025-05-23T16:13:33.427Z] Start: Run in container: /bin/sh
+[2025-05-23T16:13:33.431Z] Start: Run in container: uname -m
+[2025-05-23T16:13:33.473Z] x86_64
+[2025-05-23T16:13:33.473Z] 
+[2025-05-23T16:13:33.473Z] Stop (42 ms): Run in container: uname -m
+[2025-05-23T16:13:33.473Z] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2025-05-23T16:13:33.474Z] PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+[2025-05-23T16:13:33.474Z] 
+[2025-05-23T16:13:33.474Z] Stop (1 ms): Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2025-05-23T16:13:33.475Z] Start: Run in container:  (command -v getent >/dev/null 2>&1 && getent passwd 'python' || grep -E '^python|^[^:]*:[^:]*:python:' /etc/passwd || true)
+[2025-05-23T16:13:33.476Z] Stop (1 ms): Run in container:  (command -v getent >/dev/null 2>&1 && getent passwd 'python' || grep -E '^python|^[^:]*:[^:]*:python:' /etc/passwd || true)
+[2025-05-23T16:13:33.477Z] Start: Run: docker compose version --short
+[2025-05-23T16:13:33.532Z] Stop (55 ms): Run: docker compose version --short
+[2025-05-23T16:13:33.532Z] Docker Compose version: 2.36.1
+[2025-05-23T16:13:33.533Z] Start: Setup shutdown monitor
+[2025-05-23T16:13:33.533Z] Forking shutdown monitor: /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/shutdown/shutdownMonitorProcess /run/user/1000/vscode-remote-containers-47d550dd-17f5-4c87-affa-7ef1febeff58.sock dockerCompose Debug /home/hiansdt/.config/Code/logs/20250523T105547/window1/exthost/ms-vscode-remote.remote-containers 1748016812322
+[2025-05-23T16:13:33.540Z] Stop (7 ms): Setup shutdown monitor
+[2025-05-23T16:13:33.540Z] Start: Run in container: test -d '/home/python/.vscode-server'
+[2025-05-23T16:13:33.543Z] 
+[2025-05-23T16:13:33.543Z] 
+[2025-05-23T16:13:33.543Z] Stop (3 ms): Run in container: test -d '/home/python/.vscode-server'
+[2025-05-23T16:13:33.543Z] Start: Run in container: test ! -f '/home/python/.vscode-server/data/Machine/.writeMachineSettingsMarker' && set -o noclobber && mkdir -p '/home/python/.vscode-server/data/Machine' && { > '/home/python/.vscode-server/data/Machine/.writeMachineSettingsMarker' ; } 2> /dev/null
+[2025-05-23T16:13:33.544Z] 
+[2025-05-23T16:13:33.544Z] 
+[2025-05-23T16:13:33.544Z] Exit code 1
+[2025-05-23T16:13:33.544Z] Stop (1 ms): Run in container: test ! -f '/home/python/.vscode-server/data/Machine/.writeMachineSettingsMarker' && set -o noclobber && mkdir -p '/home/python/.vscode-server/data/Machine' && { > '/home/python/.vscode-server/data/Machine/.writeMachineSettingsMarker' ; } 2> /dev/null
+[2025-05-23T16:13:33.544Z] Start: Run in container: cat /home/python/.vscode-server/data/Machine/settings.json
+[2025-05-23T16:13:33.546Z] {
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"editor.rulers": [
+		80
+	],
+	"editor.tabSize": 4,
+	"github.copilot.chat.codeGeneration.instructions": [
+		{
+			"text": "This workspace is in a dev container running on \"Debian GNU/Linux 12 (bookworm)\".\n\nUse `\"$BROWSER\" <url>` to open a webpage in the host's default browser.\n\nSome of the command line tools available on the `PATH`: `apt`, `dpkg`, `git`, `curl`, `wget`, `ssh`, `scp`, `rsync`, `gpg`, `ps`, `lsof`, `netstat`, `top`, `tree`, `find`, `grep`, `zip`, `unzip`, `tar`, `gzip`, `bzip2`, `xz`"
+		}
+	]
+}
+[2025-05-23T16:13:33.546Z] 
+[2025-05-23T16:13:33.546Z] Stop (2 ms): Run in container: cat /home/python/.vscode-server/data/Machine/settings.json
+[2025-05-23T16:13:33.547Z] Start: Run in container: test -d '/home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e'
+[2025-05-23T16:13:33.547Z] 
+[2025-05-23T16:13:33.548Z] 
+[2025-05-23T16:13:33.548Z] Stop (1 ms): Run in container: test -d '/home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e'
+[2025-05-23T16:13:33.548Z] Start: Run in container: test -d '/vscode/vscode-server/bin/linux-x64/848b80aeb52026648a8ff9f7c45a9b0a80641e2e'
+[2025-05-23T16:13:33.548Z] 
+[2025-05-23T16:13:33.548Z] 
+[2025-05-23T16:13:33.548Z] Stop (0 ms): Run in container: test -d '/vscode/vscode-server/bin/linux-x64/848b80aeb52026648a8ff9f7c45a9b0a80641e2e'
+[2025-05-23T16:13:33.548Z] Start: Run in container: /bin/sh
+[2025-05-23T16:13:33.553Z] Start: Run in container: test -x '/home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/helpers/check-requirements.sh'
+[2025-05-23T16:13:33.553Z] Start: Run in container: touch '/vscode/vscode-server/bin/linux-x64/848b80aeb52026648a8ff9f7c45a9b0a80641e2e'
+[2025-05-23T16:13:33.554Z] 
+[2025-05-23T16:13:33.554Z] 
+[2025-05-23T16:13:33.554Z] Stop (1 ms): Run in container: test -x '/home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/helpers/check-requirements.sh'
+[2025-05-23T16:13:33.554Z] Start: Run in container: '/home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/helpers/check-requirements.sh'
+[2025-05-23T16:13:33.589Z] 
+[2025-05-23T16:13:33.589Z] 
+[2025-05-23T16:13:33.589Z] Stop (35 ms): Run in container: '/home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/helpers/check-requirements.sh'
+[2025-05-23T16:13:33.590Z] Start: Launching Dev Containers helper.
+[2025-05-23T16:13:33.590Z] ssh-agent: SSH_AUTH_SOCK not set on local host.
+[2025-05-23T16:13:33.590Z] Start: Run in container: test -e /tmp/.X11-unix/X0
+[2025-05-23T16:13:33.591Z] 
+[2025-05-23T16:13:33.592Z] 
+[2025-05-23T16:13:33.592Z] Stop (2 ms): Run in container: test -e /tmp/.X11-unix/X0
+[2025-05-23T16:13:33.592Z] Start: Run in container: test -e /tmp/.X11-unix/X1
+[2025-05-23T16:13:33.593Z] 
+[2025-05-23T16:13:33.593Z] 
+[2025-05-23T16:13:33.593Z] Exit code 1
+[2025-05-23T16:13:33.593Z] Stop (1 ms): Run in container: test -e /tmp/.X11-unix/X1
+[2025-05-23T16:13:33.593Z] Start: Run in container: mkdir -p '/tmp/.X11-unix'
+[2025-05-23T16:13:33.595Z] 
+[2025-05-23T16:13:33.595Z] 
+[2025-05-23T16:13:33.595Z] Stop (2 ms): Run in container: mkdir -p '/tmp/.X11-unix'
+[2025-05-23T16:13:33.595Z] X11 forwarding: DISPLAY in container (:1) forwarded to local host (:0).
+[2025-05-23T16:13:33.596Z] Start: Run in container: gpgconf --list-dirs
+[2025-05-23T16:13:33.597Z] sysconfdir:/etc/gnupg
+bindir:/usr/bin
+libexecdir:/usr/lib/gnupg
+libdir:/usr/lib/x86_64-linux-gnu/gnupg
+datadir:/usr/share/gnupg
+localedir:/usr/share/locale
+socketdir:/home/python/.gnupg
+dirmngr-socket:/home/python/.gnupg/S.dirmngr
+agent-ssh-socket:/home/python/.gnupg/S.gpg-agent.ssh
+agent-extra-socket:/home/python/.gnupg/S.gpg-agent.extra
+agent-browser-socket:/home/python/.gnupg/S.gpg-agent.browser
+agent-socket:/home/python/.gnupg/S.gpg-agent
+homedir:/home/python/.gnupg
+[2025-05-23T16:13:33.598Z] 
+[2025-05-23T16:13:33.598Z] Stop (2 ms): Run in container: gpgconf --list-dirs
+[2025-05-23T16:13:33.598Z] Start: Run in container: ls '/home/python/.gnupg/private-keys-v1.d' 2>/dev/null
+[2025-05-23T16:13:33.599Z] 
+[2025-05-23T16:13:33.599Z] 
+[2025-05-23T16:13:33.599Z] Exit code 2
+[2025-05-23T16:13:33.599Z] Stop (1 ms): Run in container: ls '/home/python/.gnupg/private-keys-v1.d' 2>/dev/null
+[2025-05-23T16:13:33.600Z] Start: Run: gpgconf --list-dirs
+[2025-05-23T16:13:33.605Z] 
+[2025-05-23T16:13:33.605Z] 
+[2025-05-23T16:13:33.605Z] Stop (52 ms): Run in container: touch '/vscode/vscode-server/bin/linux-x64/848b80aeb52026648a8ff9f7c45a9b0a80641e2e'
+[2025-05-23T16:13:33.608Z] Stop (8 ms): Run: gpgconf --list-dirs
+[2025-05-23T16:13:33.609Z] sysconfdir:/etc/gnupg
+bindir:/usr/bin
+libexecdir:/usr/lib/gnupg
+libdir:/usr/lib/gnupg
+datadir:/usr/share/gnupg
+localedir:/usr/share/locale
+socketdir:/run/user/1000/gnupg
+dirmngr-socket:/run/user/1000/gnupg/S.dirmngr
+keyboxd-socket:/run/user/1000/gnupg/S.keyboxd
+agent-ssh-socket:/run/user/1000/gnupg/S.gpg-agent.ssh
+agent-extra-socket:/run/user/1000/gnupg/S.gpg-agent.extra
+agent-browser-socket:/run/user/1000/gnupg/S.gpg-agent.browser
+agent-socket:/run/user/1000/gnupg/S.gpg-agent
+homedir:/home/hiansdt/.gnupg
+[2025-05-23T16:13:33.609Z] 
+[2025-05-23T16:13:33.609Z] Start: Run in container: test -f '/home/python/.gnupg/pubring.kbx'
+[2025-05-23T16:13:33.610Z] 
+[2025-05-23T16:13:33.610Z] 
+[2025-05-23T16:13:33.610Z] Exit code 1
+[2025-05-23T16:13:33.610Z] Stop (1 ms): Run in container: test -f '/home/python/.gnupg/pubring.kbx'
+[2025-05-23T16:13:33.610Z] Start: Run in container: test -f '/home/python/.gnupg/pubring.gpg'
+[2025-05-23T16:13:33.611Z] 
+[2025-05-23T16:13:33.611Z] 
+[2025-05-23T16:13:33.611Z] Exit code 1
+[2025-05-23T16:13:33.611Z] Stop (1 ms): Run in container: test -f '/home/python/.gnupg/pubring.gpg'
+[2025-05-23T16:13:33.611Z] Start: Run in container: test -f '/home/python/.gnupg/trustdb.gpg'
+[2025-05-23T16:13:33.612Z] 
+[2025-05-23T16:13:33.612Z] 
+[2025-05-23T16:13:33.612Z] Exit code 1
+[2025-05-23T16:13:33.612Z] Stop (1 ms): Run in container: test -f '/home/python/.gnupg/trustdb.gpg'
+[2025-05-23T16:13:33.612Z] Start: Run in container: mkdir -p -m 700 '/home/python/.gnupg'
+[2025-05-23T16:13:33.612Z] gpg-agent: Socket in container (/home/python/.gnupg/S.gpg-agent) forwarded to local host (/run/user/1000/gnupg/S.gpg-agent.extra).
+[2025-05-23T16:13:33.612Z] Start: Checking for GitHub CLI
+[2025-05-23T16:13:33.613Z] 
+[2025-05-23T16:13:33.613Z] 
+[2025-05-23T16:13:33.613Z] Stop (1 ms): Run in container: mkdir -p -m 700 '/home/python/.gnupg'
+[2025-05-23T16:13:33.613Z] Start: Run in container: (command -v 'gh') >/dev/null 2>&1
+[2025-05-23T16:13:33.614Z] 
+[2025-05-23T16:13:33.614Z] 
+[2025-05-23T16:13:33.614Z] Exit code 127
+[2025-05-23T16:13:33.614Z] Stop (1 ms): Run in container: (command -v 'gh') >/dev/null 2>&1
+[2025-05-23T16:13:33.614Z] Stop (2 ms): Checking for GitHub CLI
+[2025-05-23T16:13:33.614Z] Start: Run in container: (command -v 'docker' || command -v 'oras' || command -v 'skopeo') >/dev/null 2>&1
+[2025-05-23T16:13:33.614Z] Start: Run: gpg-connect-agent updatestartuptty /bye
+[2025-05-23T16:13:33.619Z] 
+[2025-05-23T16:13:33.619Z] 
+[2025-05-23T16:13:33.619Z] Exit code 127
+[2025-05-23T16:13:33.619Z] Stop (5 ms): Run in container: (command -v 'docker' || command -v 'oras' || command -v 'skopeo') >/dev/null 2>&1
+[2025-05-23T16:13:33.620Z] Start: Run in container: /bin/sh
+[2025-05-23T16:13:33.620Z] Stop (30 ms): Launching Dev Containers helper.
+[2025-05-23T16:13:33.624Z] userEnvProbe: loginInteractiveShell (default)
+[2025-05-23T16:13:33.625Z] Start: Run in container: test -f '/tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701/env-loginInteractiveShell.json'
+[2025-05-23T16:13:33.625Z] Start: Run in container: echo ~
+[2025-05-23T16:13:33.625Z] Start: Run in container: command -v git >/dev/null 2>&1 && git config --system --replace-all credential.helper '!f() { /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /tmp/vscode-remote-containers-2b834d6a-7802-4435-990c-3a6880738fad.js git-credential-helper $*; }; f' || true
+[2025-05-23T16:13:33.626Z] Stop (12 ms): Run: gpg-connect-agent updatestartuptty /bye
+[2025-05-23T16:13:33.626Z] 
+[2025-05-23T16:13:33.626Z] 
+[2025-05-23T16:13:33.626Z] Exit code 1
+[2025-05-23T16:13:33.626Z] Stop (1 ms): Run in container: test -f '/tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701/env-loginInteractiveShell.json'
+[2025-05-23T16:13:33.626Z] userEnvProbe: not found in cache
+[2025-05-23T16:13:33.626Z] userEnvProbe shell: /bin/bash
+[2025-05-23T16:13:33.628Z] 
+[2025-05-23T16:13:33.628Z] 
+[2025-05-23T16:13:33.628Z] Stop (3 ms): Run in container: command -v git >/dev/null 2>&1 && git config --system --replace-all credential.helper '!f() { /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /tmp/vscode-remote-containers-2b834d6a-7802-4435-990c-3a6880738fad.js git-credential-helper $*; }; f' || true
+[2025-05-23T16:13:33.628Z] Start: Run in container: for pid in `cd /proc && ls -d [0-9]*`; do { echo $pid ; readlink /proc/$pid/cwd || echo ; readlink /proc/$pid/ns/mnt || echo ; cat /proc/$pid/stat | tr "
+[2025-05-23T16:13:33.677Z] /home/python
+[2025-05-23T16:13:33.677Z] 
+[2025-05-23T16:13:33.677Z] Stop (52 ms): Run in container: echo ~
+[2025-05-23T16:13:33.678Z] Start: Run in container: cat <<'EOF-/tmp/vscode-remote-containers-2b834d6a-7802-4435-990c-3a6880738fad.js' >/tmp/vscode-remote-containers-2b834d6a-7802-4435-990c-3a6880738fad.js
+[2025-05-23T16:13:33.679Z] 
+[2025-05-23T16:13:33.680Z] 
+[2025-05-23T16:13:33.680Z] Stop (2 ms): Run in container: cat <<'EOF-/tmp/vscode-remote-containers-2b834d6a-7802-4435-990c-3a6880738fad.js' >/tmp/vscode-remote-containers-2b834d6a-7802-4435-990c-3a6880738fad.js
+[2025-05-23T16:13:33.680Z] Start: Run in container: cat <<'EOF-/tmp/vscode-remote-containers-server-2b834d6a-7802-4435-990c-3a6880738fad.js' >/tmp/vscode-remote-containers-server-2b834d6a-7802-4435-990c-3a6880738fad.js_1748016813680
+[2025-05-23T16:13:33.684Z] 
+[2025-05-23T16:13:33.684Z] 
+[2025-05-23T16:13:33.684Z] Stop (4 ms): Run in container: cat <<'EOF-/tmp/vscode-remote-containers-server-2b834d6a-7802-4435-990c-3a6880738fad.js' >/tmp/vscode-remote-containers-server-2b834d6a-7802-4435-990c-3a6880738fad.js_1748016813680
+[2025-05-23T16:13:33.699Z] Stop (71 ms): Run in container: for pid in `cd /proc && ls -d [0-9]*`; do { echo $pid ; readlink /proc/$pid/cwd || echo ; readlink /proc/$pid/ns/mnt || echo ; cat /proc/$pid/stat | tr "
+[2025-05-23T16:13:33.700Z] Start: Run in container: cat '/home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/product.json'
+[2025-05-23T16:13:33.701Z] Stop (1 ms): Run in container: cat '/home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/product.json'
+[2025-05-23T16:13:33.702Z] Start: Run in container: readlink -f '/home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e'
+[2025-05-23T16:13:33.703Z] /vscode/vscode-server/bin/linux-x64/848b80aeb52026648a8ff9f7c45a9b0a80641e2e
+[2025-05-23T16:13:33.703Z] 
+[2025-05-23T16:13:33.703Z] Stop (1 ms): Run in container: readlink -f '/home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e'
+[2025-05-23T16:13:33.703Z] Extension host agent is already running.
+[2025-05-23T16:13:33.703Z] Start: Run in container: cat '/home/python/.vscode-server/data/Machine/.devport-848b80aeb52026648a8ff9f7c45a9b0a80641e2e' 2>/dev/null
+[2025-05-23T16:13:33.704Z] 41365
+[2025-05-23T16:13:33.705Z] 
+[2025-05-23T16:13:33.705Z] Stop (2 ms): Run in container: cat '/home/python/.vscode-server/data/Machine/.devport-848b80aeb52026648a8ff9f7c45a9b0a80641e2e' 2>/dev/null
+[2025-05-23T16:13:33.705Z] Start: Run in container: cat '/home/python/.vscode-server/data/Machine/.connection-token-848b80aeb52026648a8ff9f7c45a9b0a80641e2e'
+[2025-05-23T16:13:33.707Z] ccb0cfc1-a9e5-4e84-90c1-13abf3470ff2
+[2025-05-23T16:13:33.707Z] 
+[2025-05-23T16:13:33.707Z] Stop (2 ms): Run in container: cat '/home/python/.vscode-server/data/Machine/.connection-token-848b80aeb52026648a8ff9f7c45a9b0a80641e2e'
+[2025-05-23T16:13:33.707Z] Port forwarding for container port 41365 starts listening on local port.
+[2025-05-23T16:13:33.708Z] Port forwarding local port 41365 to container port 41365
+[2025-05-23T16:13:33.737Z] Running Dev Containers CLI:   run-user-commands --user-data-folder /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --container-session-data-folder /tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701 --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --container-id bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4 --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --skip-non-blocking-commands true --prebuild false --stop-for-personalization true --remote-env REMOTE_CONTAINERS_IPC=/tmp/vscode-remote-containers-ipc-2b834d6a-7802-4435-990c-3a6880738fad.sock --remote-env DISPLAY=:1 --remote-env REMOTE_CONTAINERS_DISPLAY_SOCK=/tmp/.X11-unix/X1 --remote-env REMOTE_CONTAINERS=true --mount-workspace-git-root --dotfiles-target-path ~/dotfiles
+[2025-05-23T16:13:33.737Z] Start: Run: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js run-user-commands --user-data-folder /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --container-session-data-folder /tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701 --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --container-id bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4 --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --skip-non-blocking-commands true --prebuild false --stop-for-personalization true --remote-env REMOTE_CONTAINERS_IPC=/tmp/vscode-remote-containers-ipc-2b834d6a-7802-4435-990c-3a6880738fad.sock --remote-env DISPLAY=:1 --remote-env REMOTE_CONTAINERS_DISPLAY_SOCK=/tmp/.X11-unix/X1 --remote-env REMOTE_CONTAINERS=true --mount-workspace-git-root --dotfiles-target-path ~/dotfiles
+[2025-05-23T16:13:33.757Z] userEnvProbe PATHs:
+Probe:     '/home/python/app/__pypackages__/3.12/bin:/usr/local/bin:/home/python/app/__pypackages__/3.12/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/python/.local/bin'
+Container: '/home/python/app/__pypackages__/3.12/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+[2025-05-23T16:13:33.758Z] Start: Run in container: mkdir -p '/tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701' && cat > '/tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701/env-loginInteractiveShell.json' << 'envJSON'
+[2025-05-23T16:13:33.761Z] 
+[2025-05-23T16:13:33.762Z] 
+[2025-05-23T16:13:33.762Z] Stop (4 ms): Run in container: mkdir -p '/tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701' && cat > '/tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701/env-loginInteractiveShell.json' << 'envJSON'
+[2025-05-23T16:13:33.947Z] @devcontainers/cli 0.76.0. Node.js v20.19.0. linux 6.14.6-zen1-1-zen x64.
+[2025-05-23T16:13:33.947Z] Start: Run: docker buildx version
+[2025-05-23T16:13:33.962Z] Stop (15 ms): Run: docker buildx version
+[2025-05-23T16:13:33.962Z] 
+[2025-05-23T16:13:33.962Z] docker: unknown command: docker buildx
+
+Run 'docker --help' for more information
+
+[2025-05-23T16:13:33.962Z] Exit code 1
+[2025-05-23T16:13:33.963Z] Start: Run: docker -v
+[2025-05-23T16:13:33.976Z] Stop (13 ms): Run: docker -v
+[2025-05-23T16:13:33.978Z] Start: Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T16:13:33.993Z] Stop (15 ms): Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T16:13:33.994Z] Start: Inspecting container
+[2025-05-23T16:13:33.994Z] Start: Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T16:13:34.011Z] Stop (17 ms): Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T16:13:34.011Z] Stop (17 ms): Inspecting container
+[2025-05-23T16:13:34.012Z] Start: Run in container: /bin/sh
+[2025-05-23T16:13:34.016Z] Start: Run in container: uname -m
+[2025-05-23T16:13:34.056Z] x86_64
+[2025-05-23T16:13:34.056Z] 
+[2025-05-23T16:13:34.057Z] Stop (41 ms): Run in container: uname -m
+[2025-05-23T16:13:34.057Z] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2025-05-23T16:13:34.057Z] PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+[2025-05-23T16:13:34.057Z] 
+[2025-05-23T16:13:34.057Z] Stop (0 ms): Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2025-05-23T16:13:34.058Z] Start: Run in container:  (command -v getent >/dev/null 2>&1 && getent passwd 'python' || grep -E '^python|^[^:]*:[^:]*:python:' /etc/passwd || true)
+[2025-05-23T16:13:34.059Z] Stop (1 ms): Run in container:  (command -v getent >/dev/null 2>&1 && getent passwd 'python' || grep -E '^python|^[^:]*:[^:]*:python:' /etc/passwd || true)
+[2025-05-23T16:13:34.060Z] userEnvProbe: loginInteractiveShell (default)
+[2025-05-23T16:13:34.060Z] Start: Run in container: test -f '/tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701/env-loginInteractiveShell.json'
+[2025-05-23T16:13:34.061Z] 
+[2025-05-23T16:13:34.061Z] 
+[2025-05-23T16:13:34.061Z] Stop (1 ms): Run in container: test -f '/tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701/env-loginInteractiveShell.json'
+[2025-05-23T16:13:34.061Z] Start: Run in container: mkdir -p '/home/python/.devcontainer' && CONTENT="$(cat '/home/python/.devcontainer/.onCreateCommandMarker' 2>/dev/null || echo ENOENT)" && [ "${CONTENT:-2025-05-23T13:58:50.503872354Z}" != '2025-05-23T13:58:50.503872354Z' ] && echo '2025-05-23T13:58:50.503872354Z' > '/home/python/.devcontainer/.onCreateCommandMarker'
+[2025-05-23T16:13:34.063Z] 
+[2025-05-23T16:13:34.063Z] 
+[2025-05-23T16:13:34.063Z] Exit code 1
+[2025-05-23T16:13:34.063Z] Stop (2 ms): Run in container: mkdir -p '/home/python/.devcontainer' && CONTENT="$(cat '/home/python/.devcontainer/.onCreateCommandMarker' 2>/dev/null || echo ENOENT)" && [ "${CONTENT:-2025-05-23T13:58:50.503872354Z}" != '2025-05-23T13:58:50.503872354Z' ] && echo '2025-05-23T13:58:50.503872354Z' > '/home/python/.devcontainer/.onCreateCommandMarker'
+[2025-05-23T16:13:34.063Z] Start: Run in container: cat '/tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701/env-loginInteractiveShell.json'
+[2025-05-23T16:13:34.064Z] {
+	"PYTHON_SHA256": "24887b92e2afd4a2ac602419ad4b596372f67ac9b077190f459aba390faf5550",
+	"HOSTNAME": "bc8a19ed15fd",
+	"PYTHON_VERSION": "3.12.7",
+	"REDIS_HOST": "redis",
+	"HISTFILE_OLD": "/home/python/.bash_history",
+	"REMOTE_CONTAINERS_IPC": "/tmp/vscode-remote-containers-ipc-2b834d6a-7802-4435-990c-3a6880738fad.sock",
+	"HOME": "/home/python",
+	"LANG": "C.UTF-8",
+	"HISTFILE": "/dc/shellhistory/.bash_history",
+	"LS_COLORS": "",
+	"GPG_KEY": "7169605F62C751356D054A26A821E680E5FA6305",
+	"PROMPT_COMMAND": "history -a",
+	"PYTHONPATH": ":/home/python/app/src",
+	"REMOTE_CONTAINERS_SOCKETS": "[\"/tmp/.X11-unix/X1\",\"/home/python/.gnupg/S.gpg-agent\"]",
+	"USER": "python",
+	"SHLVL": "1",
+	"PROMPT_DIRTRIM": "4",
+	"REDIS_PORT": "6379",
+	"PATH": "/home/python/app/__pypackages__/3.12/bin:/usr/local/bin:/home/python/app/__pypackages__/3.12/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/python/.local/bin",
+	"_": "/usr/bin/cat"
+}
+[2025-05-23T16:13:34.064Z] 
+[2025-05-23T16:13:34.064Z] Stop (1 ms): Run in container: cat '/tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701/env-loginInteractiveShell.json'
+[2025-05-23T16:13:34.064Z] Start: Run in container: mkdir -p '/home/python/.devcontainer' && CONTENT="$(cat '/home/python/.devcontainer/.updateContentCommandMarker' 2>/dev/null || echo ENOENT)" && [ "${CONTENT:-2025-05-23T13:58:50.503872354Z}" != '2025-05-23T13:58:50.503872354Z' ] && echo '2025-05-23T13:58:50.503872354Z' > '/home/python/.devcontainer/.updateContentCommandMarker'
+[2025-05-23T16:13:34.067Z] 
+[2025-05-23T16:13:34.067Z] 
+[2025-05-23T16:13:34.067Z] Exit code 1
+[2025-05-23T16:13:34.067Z] Stop (3 ms): Run in container: mkdir -p '/home/python/.devcontainer' && CONTENT="$(cat '/home/python/.devcontainer/.updateContentCommandMarker' 2>/dev/null || echo ENOENT)" && [ "${CONTENT:-2025-05-23T13:58:50.503872354Z}" != '2025-05-23T13:58:50.503872354Z' ] && echo '2025-05-23T13:58:50.503872354Z' > '/home/python/.devcontainer/.updateContentCommandMarker'
+[2025-05-23T16:13:34.071Z] Stop (334 ms): Run: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js run-user-commands --user-data-folder /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --container-session-data-folder /tmp/devcontainers-8cddcd75-8bed-4319-beaf-7ec13754a2fe1748016811701 --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --container-id bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4 --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --skip-non-blocking-commands true --prebuild false --stop-for-personalization true --remote-env REMOTE_CONTAINERS_IPC=/tmp/vscode-remote-containers-ipc-2b834d6a-7802-4435-990c-3a6880738fad.sock --remote-env DISPLAY=:1 --remote-env REMOTE_CONTAINERS_DISPLAY_SOCK=/tmp/.X11-unix/X1 --remote-env REMOTE_CONTAINERS=true --mount-workspace-git-root --dotfiles-target-path ~/dotfiles
+[2025-05-23T16:13:34.075Z] Stop (1729 ms): Resolving Remote
+[2025-05-23T16:13:34.076Z] Initializing configuration support...
+[2025-05-23T16:13:34.077Z] Internal initialization of dev container support package...
+[2025-05-23T16:13:34.083Z] Start: Run in container: # Test for /home/python/.gitconfig and git
+[2025-05-23T16:13:34.085Z] [credential "https://github.com"]
+[credential "https://gist.github.com"]
+[credential]
+/home/python/.gitconfig exists
+[2025-05-23T16:13:34.085Z] 
+[2025-05-23T16:13:34.085Z] Exit code 1
+[2025-05-23T16:13:34.085Z] Stop (2 ms): Run in container: # Test for /home/python/.gitconfig and git
+[2025-05-23T16:13:34.086Z] Start: Run in container: command -v git >/dev/null 2>&1 && git config --global --replace-all credential.helper '!f() { /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /tmp/vscode-remote-containers-2b834d6a-7802-4435-990c-3a6880738fad.js git-credential-helper $*; }; f' || true
+[2025-05-23T16:13:34.088Z] 
+[2025-05-23T16:13:34.088Z] 
+[2025-05-23T16:13:34.088Z] Stop (2 ms): Run in container: command -v git >/dev/null 2>&1 && git config --global --replace-all credential.helper '!f() { /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /tmp/vscode-remote-containers-2b834d6a-7802-4435-990c-3a6880738fad.js git-credential-helper $*; }; f' || true
+[2025-05-23T16:13:34.109Z] Port forwarding connection from 41382 > 41365 > 41365 in the container.
+[2025-05-23T16:13:34.109Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T16:13:34.177Z] Port forwarding 41382 > 41365 > 41365 stderr: Connection established
+[2025-05-23T16:13:34.189Z] Port forwarding connection from 41400 > 41365 > 41365 in the container.
+[2025-05-23T16:13:34.189Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T16:13:34.254Z] Port forwarding 41400 > 41365 > 41365 stderr: Connection established
+[2025-05-23T16:13:34.472Z] Port forwarding connection from 41410 > 41365 > 41365 in the container.
+[2025-05-23T16:13:34.473Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T16:13:34.478Z] Port forwarding connection from 41418 > 41365 > 41365 in the container.
+[2025-05-23T16:13:34.479Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T16:13:34.547Z] Port forwarding 41410 > 41365 > 41365 stderr: Connection established
+[2025-05-23T16:13:34.553Z] Port forwarding 41418 > 41365 > 41365 stderr: Connection established
+[2025-05-23T16:13:35.507Z] Start: Run in container: cat /proc/781/environ
+[2025-05-23T16:13:35.510Z] Stop (3 ms): Run in container: cat /proc/781/environ
+[2025-05-23T16:13:35.511Z] Start: Run in container: rm '/tmp/vscode-remote-containers-ipc-dedca93a-4e24-4525-8073-6215cde8a2c0.sock' && ln -s '/tmp/vscode-remote-containers-ipc-2b834d6a-7802-4435-990c-3a6880738fad.sock' '/tmp/vscode-remote-containers-ipc-dedca93a-4e24-4525-8073-6215cde8a2c0.sock'
+[2025-05-23T16:13:35.514Z] 
+[2025-05-23T16:13:35.515Z] 
+[2025-05-23T16:13:35.515Z] Stop (4 ms): Run in container: rm '/tmp/vscode-remote-containers-ipc-dedca93a-4e24-4525-8073-6215cde8a2c0.sock' && ln -s '/tmp/vscode-remote-containers-ipc-2b834d6a-7802-4435-990c-3a6880738fad.sock' '/tmp/vscode-remote-containers-ipc-dedca93a-4e24-4525-8073-6215cde8a2c0.sock'
+[2025-05-23T16:13:35.515Z] Start: Run in container: rm '/tmp/.X11-unix/X0' && ln -s '/tmp/.X11-unix/X1' '/tmp/.X11-unix/X0'
+[2025-05-23T16:13:35.519Z] 
+[2025-05-23T16:13:35.519Z] 
+[2025-05-23T16:13:35.519Z] Stop (4 ms): Run in container: rm '/tmp/.X11-unix/X0' && ln -s '/tmp/.X11-unix/X1' '/tmp/.X11-unix/X0'
+[2025-05-23T16:13:36.338Z] Start: Run in container: cat /proc/26441/environ
+[2025-05-23T16:13:36.340Z] Stop (2 ms): Run in container: cat /proc/26441/environ
+[2025-05-23T16:13:40.556Z] Port forwarding 41410 > 41365 > 41365 stderr: Remote close
+[2025-05-23T16:13:40.560Z] Port forwarding 41418 > 41365 > 41365 stderr: Remote close
+[2025-05-23T16:13:40.565Z] Stop (6092 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T16:13:40.568Z] Port forwarding 41410 > 41365 > 41365 terminated with code 0 and signal null.
+[2025-05-23T16:13:40.570Z] Stop (6091 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T16:13:40.571Z] Port forwarding 41418 > 41365 > 41365 terminated with code 0 and signal null.
+[2025-05-23T16:32:20.302Z] Port forwarding 41418 > 41365 > 41365: Local close
+[2025-05-23T16:32:20.303Z] Port forwarding 41410 > 41365 > 41365: Local close
+[2025-05-23T17:07:08.070Z] Port forwarding 41400 > 41365 > 41365: Local close
+[2025-05-23T17:07:08.072Z] Port forwarding 41382 > 41365 > 41365: Local close
+[2025-05-23T17:07:08.075Z] Port forwarding 41382 > 41365 > 41365 stderr: Remote stdin close
+[2025-05-23T17:07:08.076Z] Port forwarding 41400 > 41365 > 41365 stderr: Remote stdin close
+[2025-05-23T17:07:08.077Z] Port forwarding connection from 33476 > 41365 > 41365 in the container.
+[2025-05-23T17:07:08.077Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T17:07:08.085Z] Start: Reconnection attempt 1
+[2025-05-23T17:07:08.086Z] CLIHost does not need reconnection.
+[2025-05-23T17:07:08.086Z] Start: Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T17:07:08.094Z] Stop (3213985 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T17:07:08.095Z] Port forwarding 41382 > 41365 > 41365 terminated by extension (closed) with code 0 and signal null.
+[2025-05-23T17:07:08.095Z] Stop (3213906 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T17:07:08.095Z] Port forwarding 41400 > 41365 > 41365 terminated by extension (closed) with code 0 and signal null.
+[2025-05-23T17:07:08.115Z] Stop (29 ms): Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T17:07:08.116Z] Destroying 1 leftover connections to forwarded port 41365.
+[2025-05-23T17:07:08.116Z] Stop (31 ms): Reconnection attempt 1
+[2025-05-23T17:07:08.117Z] Port forwarding 33476 > 41365 > 41365: Local close
+[2025-05-23T17:07:08.128Z] Port forwarding connection from 33484 > 41365 > 41365 in the container.
+[2025-05-23T17:07:08.128Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T17:07:08.174Z] Port forwarding 33476 > 41365 > 41365 stderr: Connection established
+[2025-05-23T17:07:08.175Z] Port forwarding 33476 > 41365 > 41365 stderr: Remote stdin close
+[2025-05-23T17:07:08.179Z] Stop (102 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T17:07:08.179Z] Port forwarding 33476 > 41365 > 41365 terminated by extension (closed) with code 0 and signal null.
+[2025-05-23T17:07:08.205Z] Port forwarding 33484 > 41365 > 41365 stderr: Connection established
+[2025-05-23T19:32:00.670Z] Port forwarding connection from 33512 > 41365 > 41365 in the container.
+[2025-05-23T19:32:00.670Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:32:00.754Z] Port forwarding 33512 > 41365 > 41365 stderr: Connection established
+[2025-05-23T19:32:25.949Z] Port forwarding 33512 > 41365 > 41365: Local close
+[2025-05-23T19:32:25.950Z] Port forwarding 33484 > 41365 > 41365: Local close
+[2025-05-23T19:32:25.955Z] Start: Reconnection attempt 2
+[2025-05-23T19:32:25.955Z] CLIHost does not need reconnection.
+[2025-05-23T19:32:25.955Z] Port forwarding 33512 > 41365 > 41365 stderr: Remote stdin close
+[2025-05-23T19:32:25.956Z] Start: Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T19:32:25.962Z] Port forwarding connection from 58436 > 41365 > 41365 in the container.
+[2025-05-23T19:32:25.962Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:32:25.968Z] Port forwarding 33484 > 41365 > 41365 stderr: Remote stdin close
+[2025-05-23T19:32:25.969Z] Stop (8717841 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:32:25.969Z] Port forwarding 33484 > 41365 > 41365 terminated by extension (closed) with code 0 and signal null.
+[2025-05-23T19:32:25.969Z] Stop (25299 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:32:25.969Z] Port forwarding 33512 > 41365 > 41365 terminated by extension (closed) with code 0 and signal null.
+[2025-05-23T19:32:25.980Z] Stop (24 ms): Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T19:32:25.981Z] Destroying 1 leftover connections to forwarded port 41365.
+[2025-05-23T19:32:25.981Z] Stop (26 ms): Reconnection attempt 2
+[2025-05-23T19:32:25.982Z] Port forwarding 58436 > 41365 > 41365: Local close
+[2025-05-23T19:32:25.992Z] Port forwarding connection from 58452 > 41365 > 41365 in the container.
+[2025-05-23T19:32:25.992Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:32:26.044Z] Port forwarding 58436 > 41365 > 41365 stderr: Connection established
+[2025-05-23T19:32:26.045Z] Port forwarding 58436 > 41365 > 41365 stderr: Remote stdin close
+[2025-05-23T19:32:26.048Z] Stop (86 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:32:26.048Z] Port forwarding 58436 > 41365 > 41365 terminated by extension (closed) with code 0 and signal null.
+[2025-05-23T19:32:26.067Z] Port forwarding 58452 > 41365 > 41365 stderr: Connection established
+[2025-05-23T19:32:48.311Z] Port forwarding connection from 58490 > 41365 > 41365 in the container.
+[2025-05-23T19:32:48.312Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:32:48.403Z] Port forwarding 58490 > 41365 > 41365 stderr: Connection established
+[2025-05-23T19:33:13.770Z] Port forwarding 58490 > 41365 > 41365: Local close
+[2025-05-23T19:33:13.771Z] Port forwarding 58452 > 41365 > 41365: Local close
+[2025-05-23T19:33:13.772Z] Port forwarding connection from 57610 > 41365 > 41365 in the container.
+[2025-05-23T19:33:13.772Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:33:13.785Z] Start: Reconnection attempt 3
+[2025-05-23T19:33:13.786Z] CLIHost does not need reconnection.
+[2025-05-23T19:33:13.786Z] Start: Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T19:33:13.800Z] Port forwarding 58490 > 41365 > 41365 stderr: Remote stdin close
+[2025-05-23T19:33:13.801Z] Port forwarding 58452 > 41365 > 41365 stderr: Remote stdin close
+[2025-05-23T19:33:13.802Z] Stop (47810 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:33:13.802Z] Port forwarding 58452 > 41365 > 41365 terminated by extension (closed) with code 0 and signal null.
+[2025-05-23T19:33:13.802Z] Stop (25490 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:33:13.802Z] Port forwarding 58490 > 41365 > 41365 terminated by extension (closed) with code 0 and signal null.
+[2025-05-23T19:33:13.822Z] Stop (36 ms): Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T19:33:13.823Z] Destroying 1 leftover connections to forwarded port 41365.
+[2025-05-23T19:33:13.823Z] Stop (38 ms): Reconnection attempt 3
+[2025-05-23T19:33:13.824Z] Port forwarding 57610 > 41365 > 41365: Local close
+[2025-05-23T19:33:13.835Z] Port forwarding connection from 57618 > 41365 > 41365 in the container.
+[2025-05-23T19:33:13.835Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:33:13.870Z] Port forwarding 57610 > 41365 > 41365 stderr: Connection established
+[2025-05-23T19:33:13.872Z] Port forwarding 57610 > 41365 > 41365 stderr: Remote stdin close
+[2025-05-23T19:33:13.874Z] Stop (102 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:33:13.874Z] Port forwarding 57610 > 41365 > 41365 terminated by extension (closed) with code 0 and signal null.
+[2025-05-23T19:33:13.900Z] Port forwarding 57618 > 41365 > 41365 stderr: Connection established
+[2025-05-23T19:37:09.279Z] Port forwarding connection from 57650 > 41365 > 41365 in the container.
+[2025-05-23T19:37:09.280Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:37:09.369Z] Port forwarding 57650 > 41365 > 41365 stderr: Connection established
+[2025-05-23T19:37:34.719Z] Port forwarding 57650 > 41365 > 41365: Local close
+[2025-05-23T19:37:34.720Z] Port forwarding 57618 > 41365 > 41365: Local close
+[2025-05-23T19:37:34.723Z] Port forwarding connection from 49150 > 41365 > 41365 in the container.
+[2025-05-23T19:37:34.724Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:37:34.730Z] Start: Reconnection attempt 4
+[2025-05-23T19:37:34.731Z] CLIHost does not need reconnection.
+[2025-05-23T19:37:34.731Z] Start: Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T19:37:34.738Z] Port forwarding 57650 > 41365 > 41365 stderr: Remote stdin close
+[2025-05-23T19:37:34.738Z] Port forwarding 57618 > 41365 > 41365 stderr: Remote stdin close
+[2025-05-23T19:37:34.739Z] Stop (260904 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:37:34.739Z] Port forwarding 57618 > 41365 > 41365 terminated by extension (closed) with code 0 and signal null.
+[2025-05-23T19:37:34.739Z] Stop (25459 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:37:34.740Z] Port forwarding 57650 > 41365 > 41365 terminated by extension (closed) with code 0 and signal null.
+[2025-05-23T19:37:34.759Z] Stop (28 ms): Run: docker inspect --type container bc8a19ed15fd5e04613c25c6bed0e655c97bc11fc6e80dc3e83ab487a99be3d4
+[2025-05-23T19:37:34.760Z] Destroying 1 leftover connections to forwarded port 41365.
+[2025-05-23T19:37:34.760Z] Stop (30 ms): Reconnection attempt 4
+[2025-05-23T19:37:34.761Z] Port forwarding 49150 > 41365 > 41365: Local close
+[2025-05-23T19:37:34.771Z] Port forwarding connection from 49158 > 41365 > 41365 in the container.
+[2025-05-23T19:37:34.772Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:37:34.807Z] Port forwarding 49150 > 41365 > 41365 stderr: Connection established
+[2025-05-23T19:37:34.809Z] Port forwarding 49150 > 41365 > 41365 stderr: Remote stdin close
+[2025-05-23T19:37:34.811Z] Stop (87 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:37:34.811Z] Port forwarding 49150 > 41365 > 41365 terminated by extension (closed) with code 0 and signal null.
+[2025-05-23T19:37:34.832Z] Port forwarding 49158 > 41365 > 41365 stderr: Connection established
+[2025-05-23T19:40:08.335Z] Port forwarding connection from 49180 > 41365 > 41365 in the container.
+[2025-05-23T19:40:08.336Z] Start: Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T19:40:08.477Z] Port forwarding 49180 > 41365 > 41365 stderr: Connection established
+[2025-05-23T20:09:34.533Z] Port forwarding 49158 > 41365 > 41365 stderr: Remote close
+[2025-05-23T20:09:34.546Z] Stop (1919774 ms): Run in container: /home/python/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e 
+[2025-05-23T20:09:34.547Z] Port forwarding 49158 > 41365 > 41365 terminated with code 0 and signal null.
+[2025-05-23T20:09:34.548Z] Port forwarding 49158 > 41365 > 41365: Local close

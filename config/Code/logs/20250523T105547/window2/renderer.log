@@ -1,0 +1,36 @@
+2025-05-23 10:56:49.322 [info] Started local extension host with pid 4730.
+2025-05-23 10:56:49.347 [info] ComputeTargetPlatform: linux-x64
+2025-05-23 10:56:49.488 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-05-23 10:56:49.814 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-05-23 10:56:51.935 [info] [perf] Render performance baseline is 14ms
+2025-05-23 10:58:19.449 [error] Failed: Failed to fetch
+    at lJe.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1859:34810)
+    at async lJe.I (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1859:29229)
+    at async a (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1859:27951)
+    at async lJe.query (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1859:28239)
+    at async ect.queryGallery (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2509:14250)
+    at async Promise.all (index 0)
+    at async Gds.Mc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:830:21301)
+    at async Gds.wc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:830:13224)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:830:12098
+2025-05-23 10:58:21.654 [error] Failed: Failed to fetch
+    at lJe.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1859:34810)
+    at async lJe.I (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1859:29229)
+    at async lJe.I (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1859:30718)
+    at async lJe.B (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1859:23300)
+    at async lJe.getExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1859:22171)
+    at async ect.getExtensions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2509:14652)
+    at async Kds.Rc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:830:24098)
+    at async Kds.$c (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:830:26742)
+    at async Kds.wc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:830:13224)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:830:12098
+2025-05-23 10:58:51.639 [info] Started local extension host with pid 14076.
+2025-05-23 10:58:52.201 [error] No registered selector for ID: ms-vscode.npm-command
+2025-05-23 11:02:18.039 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2025-05-23 11:02:23.357 [warning] [perf] Renderer reported VERY LONG TASK (184ms), starting profiling session 'b2be72e8-38ee-4881-8f9a-e5ce66c403c0'
+2025-05-23 11:04:40.871 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2025-05-23 11:12:17.491 [info] Started local extension host with pid 28156.
+2025-05-23 11:12:17.713 [info] ComputeTargetPlatform: linux-x64
+2025-05-23 11:12:18.604 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-05-23 11:12:20.140 [info] [perf] Render performance baseline is 14ms
+2025-05-23 11:16:01.754 [warning] Overlapping semantic tokens detected at lineNumber 77, column 4

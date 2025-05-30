@@ -1,6 +1,0 @@
-2025-05-08 13:57:00.208 [info] GitLens v17.0.3 activating in Visual Studio Code (1.99.3) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (0bc64120e8d07e86ceaf0b46e2ccf61cf876d4825ffddeff6dbb87083651577d|3f26b3cf-3d14-467d-88a8-b061b2fbf06f1746723413920)
-To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
-
-2025-05-08 13:57:00.962 [info] [2025-05-08 16:57:00.960] [GIT    *642ms] [/home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-backend] git rev-list --max-parents=0 HEAD -- [*642ms] (slow)
-[2025-05-08 16:57:00.961] [GIT    *630ms] [/home/hiansdt/Documents/Projects/c3labs/vitta/enchiridion-backend] git shortlog -s --all --no-merges --since=1.year.ago [*630ms] (slow)
-
