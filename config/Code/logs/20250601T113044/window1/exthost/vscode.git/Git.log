@@ -1,0 +1,56 @@
+2025-06-01 11:30:46.663 [info] [main] Log level: Info
+2025-06-01 11:30:46.663 [info] [main] Validating found git in: "git"
+2025-06-01 11:30:46.663 [info] [main] Using git "2.49.0" from "git"
+2025-06-01 11:30:46.663 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-01 11:30:46.663 [info] > git rev-parse --show-toplevel [3ms]
+2025-06-01 11:30:46.663 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-06-01 11:30:46.663 [info] [Model][openRepository] Opened repository (path): /home/hiansdt/projects/c3labs/monitor/monitor-comex-frontend
+2025-06-01 11:30:46.663 [info] [Model][openRepository] Opened repository (real path): /home/hiansdt/projects/c3labs/monitor/monitor-comex-frontend
+2025-06-01 11:30:46.733 [info] > git rev-parse --show-toplevel [64ms]
+2025-06-01 11:30:46.733 [info] > git config --get commit.template [66ms]
+2025-06-01 11:30:46.769 [info] > git rev-parse --show-toplevel [15ms]
+2025-06-01 11:30:46.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [6ms]
+2025-06-01 11:30:46.780 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hiansdt/projects/c3labs/monitor/monitor-comex-frontend/.git/refs/remotes/origin/dev'
+2025-06-01 11:30:46.781 [info] > git rev-parse --show-toplevel [7ms]
+2025-06-01 11:30:46.785 [info] > git rev-parse refs/remotes/origin/dev [5ms]
+2025-06-01 11:30:46.800 [info] > git status -z -uall [10ms]
+2025-06-01 11:30:46.801 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-01 11:30:46.812 [info] > git rev-parse --show-toplevel [27ms]
+2025-06-01 11:30:46.814 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-01 11:30:46.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [10ms]
+2025-06-01 11:30:46.824 [info] > git config --get --local branch.dev.vscode-merge-base [2ms]
+2025-06-01 11:30:46.824 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-01 11:30:46.828 [info] > git config --get commit.template [10ms]
+2025-06-01 11:30:46.835 [info] > git reflog dev --grep-reflog=branch: Created from *. [8ms]
+2025-06-01 11:30:46.838 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [7ms]
+2025-06-01 11:30:46.845 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hiansdt/projects/c3labs/monitor/monitor-comex-frontend/.git/refs/remotes/origin/dev'
+2025-06-01 11:30:46.845 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2025-06-01 11:30:46.849 [info] > git rev-parse refs/remotes/origin/dev [4ms]
+2025-06-01 11:30:46.857 [info] > git status -z -uall [5ms]
+2025-06-01 11:30:46.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/dev refs/remotes/origin/dev [9ms]
+2025-06-01 11:30:46.863 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-06-01 11:30:46.871 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [2ms]
+2025-06-01 11:30:46.876 [info] > git config --add --local branch.dev.vscode-merge-base origin/dev [14ms]
+2025-06-01 11:30:46.881 [info] > git config --get --local branch.dev.vscode-merge-base [5ms]
+2025-06-01 11:30:46.886 [info] > git config --get commit.template [6ms]
+2025-06-01 11:30:46.887 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/dev refs/remotes/origin/dev [1ms]
+2025-06-01 11:30:46.897 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [5ms]
+2025-06-01 11:30:46.918 [info] > git diff --name-status -z --diff-filter=ADMR c0082d089d146a4b5826dcc859edc79d0a8f7125...refs/remotes/origin/dev [16ms]
+2025-06-01 11:30:46.919 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [23ms]
+2025-06-01 11:30:46.929 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hiansdt/projects/c3labs/monitor/monitor-comex-frontend/.git/refs/remotes/origin/dev'
+2025-06-01 11:30:46.941 [info] > git rev-parse refs/remotes/origin/dev [12ms]
+2025-06-01 11:30:46.951 [info] > git status -z -uall [5ms]
+2025-06-01 11:30:46.952 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-01 11:30:47.183 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-01 11:30:47.792 [info] > git check-ignore -v -z --stdin [4ms]
+2025-06-01 11:30:50.496 [info] > git check-ignore -v -z --stdin [3ms]
+2025-06-01 11:30:51.793 [info] > git show --textconv :src/main.ts [8ms]
+2025-06-01 11:30:51.794 [info] > git ls-files --stage -- src/main.ts [4ms]
+2025-06-01 11:30:51.803 [info] > git cat-file -s 4536aee88d408b384fbe206342b1c4cc53fafdc9 [5ms]
+2025-06-01 11:30:52.473 [info] > git blame --root --incremental c0082d089d146a4b5826dcc859edc79d0a8f7125 -- src/main.ts [4ms]
+2025-06-01 11:30:53.108 [info] > git config --get commit.template [4ms]
+2025-06-01 11:30:53.109 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [1ms]
+2025-06-01 11:30:53.113 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hiansdt/projects/c3labs/monitor/monitor-comex-frontend/.git/refs/remotes/origin/dev'
+2025-06-01 11:30:53.114 [info] > git rev-parse refs/remotes/origin/dev [1ms]
+2025-06-01 11:30:53.123 [info] > git status -z -uall [5ms]
+2025-06-01 11:30:53.124 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]

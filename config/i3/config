@@ -271,33 +271,33 @@ client.background        $base
 # nothing atm
 
 # borders
-default_border pixel 3
-gaps outer 3
-gaps inner 8 
+default_border none
+gaps outer 50
+gaps inner 15 
 
 # bar (completely yoinked from https://github.com/jifuwater/Cattendeavour/blob/main/i3/config)
-bar {
-	font pango: FiraCode Nerd Font medium 10
-    status_command i3blocks -c ~/.config/i3/i3blocks.conf
-    position bottom
-    i3bar_command i3bar --transparency
-    colors {
-		    separator          $pink
-		  #  background         $darkgrey
-		    background	#1e1e2eD9
-		    statusline         $pink
-#                          		border 		        bg		txt	
-		focused_workspace	#1e1e2eD9		#1e1e2eD9	#b4befe 	
-		active_workspace	#1e1e2eD9	      	#1e1e2eD9 	#a6adc8		
-		inactive_workspace	#1e1e2eD9 		#1e1e2eD9	#7f849c		
-		urgent_workspace	#1e1e2eD9    		#1e1e2eD9  	#a6e3a1  	
-	}
-}
+# bar {
+	# font pango: FiraCode Nerd Font medium 10
+    # status_command i3blocks -c ~/.config/i3/i3blocks.conf
+    # position bottom
+    # i3bar_command i3bar --transparency
+    # colors {
+		    # separator          $pink
+		  # #  background         $darkgrey
+		    # background	#1e1e2eD9
+		    # statusline         $pink
+# #                          		border 		        bg		txt	
+		# focused_workspace	#1e1e2eD9		#1e1e2eD9	#b4befe 	
+		# active_workspace	#1e1e2eD9	      	#1e1e2eD9 	#a6adc8		
+		# inactive_workspace	#1e1e2eD9 		#1e1e2eD9	#7f849c		
+		# urgent_workspace	#1e1e2eD9    		#1e1e2eD9  	#a6e3a1  	
+	# }
+# }
 
 # picom
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 
-# disable screen turning off
+exec_always --no-startup-id pkill -x polybar; polybar mybar
 exec_always --no-startup-id xset s 0 0
 
 # autostart applications
@@ -306,8 +306,10 @@ exec_always --no-startup-id xset s 0 0
 # exec --no-startup-id i3-msg 'workspace 4; exec kitty -d ~/Code/WebDev/noai-blog/ --hold sh -c "docker compose up -w --build"'
 # exec --no-startup-id i3-msg 'workspace 4; exec kitty -d ~/Code/WebDev/noai-blog/'
 
-exec_always --no-startup-id feh --bg-scale ~/wallpapers/c3d6.png
+exec_always --no-startup-id feh --bg-scale ~/wallpapers/alienlandscape.jpg
 
-bindsym $mod+Shift+s exec redshift -O 3000
+bindsym $mod+Shift+s exec redshift -O 5000
 bindsym $mod+Shift+d exec redshift -x
 
+
+exec_always --no-startup-id ~/.config/polybar/launch.sh

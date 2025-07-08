@@ -1,0 +1,346 @@
+[2025-06-06T14:10:53.691Z] Dev Containers 0.413.0 in VS Code 1.100.2 (848b80aeb52026648a8ff9f7c45a9b0a80641e2e).
+[2025-06-06T14:10:53.691Z] Start: Resolving Remote
+[2025-06-06T14:10:53.700Z] Setting up container for folder or workspace: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+[2025-06-06T14:10:53.726Z] Start: Check Docker is running
+[2025-06-06T14:10:53.726Z] Start: Run: docker version
+[2025-06-06T14:10:53.741Z] Client:
+ Version:           28.1.1
+ API version:       1.49
+ Go version:        go1.24.2
+ Git commit:        4eba377327
+ Built:             Mon Apr 21 13:12:23 2025
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server:
+ Engine:
+[2025-06-06T14:10:53.742Z]   Version:          28.1.1
+  API version:      1.49 (minimum version 1.24)
+  Go version:       go1.24.2
+  Git commit:       01f442b84d
+  Built:            Mon Apr 21 13:12:23 2025
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v2.1.1
+  GitCommit:        cb1076646aa3740577fafbf3d914198b7fe8e3f7.m
+ runc:
+  Version:          1.3.0
+  GitCommit:        
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+[2025-06-06T14:10:53.743Z] Stop (17 ms): Run: docker version
+[2025-06-06T14:10:53.743Z] Stop (17 ms): Check Docker is running
+[2025-06-06T14:10:53.744Z] Start: Run: docker volume ls -q
+[2025-06-06T14:10:53.756Z] Stop (12 ms): Run: docker volume ls -q
+[2025-06-06T14:10:53.757Z] Start: Run: docker ps -q -a --filter label=vsch.local.folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=vsch.quality=stable
+[2025-06-06T14:10:53.770Z] Stop (13 ms): Run: docker ps -q -a --filter label=vsch.local.folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=vsch.quality=stable
+[2025-06-06T14:10:53.770Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json
+[2025-06-06T14:10:53.782Z] Stop (12 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json
+[2025-06-06T14:10:53.782Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend
+[2025-06-06T14:10:53.794Z] Stop (12 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend
+[2025-06-06T14:10:53.794Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend
+[2025-06-06T14:10:53.810Z] Stop (16 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend
+[2025-06-06T14:10:53.810Z] Running Dev Containers CLI:   up --user-data-folder /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --container-session-data-folder /tmp/devcontainers-459803e9-351b-4939-b636-990f9c48aa6d1749219053098 --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --include-configuration --include-merged-configuration
+[2025-06-06T14:10:53.811Z] Start: Run: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --container-session-data-folder /tmp/devcontainers-459803e9-351b-4939-b636-990f9c48aa6d1749219053098 --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --include-configuration --include-merged-configuration
+[2025-06-06T14:10:53.949Z] @devcontainers/cli 0.76.0. Node.js v20.19.0. linux 6.14.6-zen1-1-zen x64.
+[2025-06-06T14:10:53.949Z] Start: Run: docker buildx version
+[2025-06-06T14:10:53.963Z] Stop (14 ms): Run: docker buildx version
+[2025-06-06T14:10:53.963Z] 
+[2025-06-06T14:10:53.963Z] docker: unknown command: docker buildx
+
+Run 'docker --help' for more information
+
+[2025-06-06T14:10:53.963Z] Exit code 1
+[2025-06-06T14:10:53.963Z] Start: Run: docker -v
+[2025-06-06T14:10:53.973Z] Stop (10 ms): Run: docker -v
+[2025-06-06T14:10:53.973Z] Start: Resolving Remote
+[2025-06-06T14:10:53.976Z] Start: Run: docker compose version --short
+[2025-06-06T14:10:54.016Z] Stop (40 ms): Run: docker compose version --short
+[2025-06-06T14:10:54.016Z] Docker Compose version: 2.36.1
+[2025-06-06T14:10:54.016Z] Start: Run: docker compose -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/docker-compose.yml -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/docker-compose.yml --profile * config
+[2025-06-06T14:10:54.067Z] Stop (51 ms): Run: docker compose -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/docker-compose.yml -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/docker-compose.yml --profile * config
+[2025-06-06T14:10:54.067Z] name: enchiridion-backend
+services:
+  app:
+    build:
+      context: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+      dockerfile: Dockerfile
+    command:
+      - /bin/sh
+      - -c
+      - while sleep 1000; do :; done
+    container_name: django_app
+    depends_on:
+      redis:
+        condition: service_started
+        required: true
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+    networks:
+      internal-network: null
+    ports:
+      - mode: ingress
+        target: 8001
+        published: "8001"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+        target: /app
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+        target: /home/python/app
+        bind:
+          create_host_path: true
+  db:
+    container_name: enchiridion-db
+    environment:
+      POSTGRES_DB: enchiridion
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres:13
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "15433"
+        protocol: tcp
+  redis:
+    command:
+      - redis-server
+      - --appendonly
+      - "yes"
+    container_name: enchiridion-backend-redis
+    image: redis:alpine
+    networks:
+      internal-network: null
+    restart: always
+    volumes:
+      - type: volume
+        source: redis_data
+        target: /data
+        volume: {}
+networks:
+  default:
+    name: enchiridion-backend_default
+  internal-network:
+    name: enchiridion-backend_internal-network
+    driver: bridge
+volumes:
+  redis_data:
+    name: enchiridion-backend_redis_data
+[2025-06-06T14:10:54.069Z] Start: Run: docker ps -q -a --filter label=com.docker.compose.project=enchiridion-backend --filter label=com.docker.compose.service=app
+[2025-06-06T14:10:54.079Z] Stop (10 ms): Run: docker ps -q -a --filter label=com.docker.compose.project=enchiridion-backend --filter label=com.docker.compose.service=app
+[2025-06-06T14:10:54.079Z] Start: Run: docker inspect --type container 7cd6cd859c1a
+[2025-06-06T14:10:54.096Z] Stop (17 ms): Run: docker inspect --type container 7cd6cd859c1a
+[2025-06-06T14:10:54.097Z] Start: Run: docker events --format {{json .}} --filter event=start
+[2025-06-06T14:10:54.101Z] PersistedPath=/home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data, ContainerHasLabels=true
+[2025-06-06T14:10:54.101Z] Container was created with these config files: /home/hiansdt/projects/c3labs/vita/enchiridion-backend/docker-compose.yml
+[2025-06-06T14:10:54.101Z] Expected to find a docker-compose file prefixed with docker-compose.devcontainer.build, but did not.
+[2025-06-06T14:10:54.101Z] Expected to find a docker-compose file prefixed with docker-compose.devcontainer.containerFeatures, but did not.
+[2025-06-06T14:10:54.102Z] Start: Run: docker compose -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/docker-compose.yml -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/docker-compose.yml --profile * config
+[2025-06-06T14:10:54.165Z] Stop (63 ms): Run: docker compose -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/docker-compose.yml -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/docker-compose.yml --profile * config
+[2025-06-06T14:10:54.165Z] name: enchiridion-backend
+services:
+  app:
+    build:
+      context: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+      dockerfile: Dockerfile
+    command:
+      - /bin/sh
+      - -c
+      - while sleep 1000; do :; done
+    container_name: django_app
+    depends_on:
+      redis:
+        condition: service_started
+        required: true
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+    networks:
+      internal-network: null
+    ports:
+      - mode: ingress
+        target: 8001
+        published: "8001"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+        target: /app
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+        target: /home/python/app
+        bind:
+          create_host_path: true
+  db:
+    container_name: enchiridion-db
+    environment:
+      POSTGRES_DB: enchiridion
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres:13
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "15433"
+        protocol: tcp
+  redis:
+    command:
+      - redis-server
+      - --appendonly
+      - "yes"
+    container_name: enchiridion-backend-redis
+    image: redis:alpine
+    networks:
+      internal-network: null
+    restart: always
+    volumes:
+      - type: volume
+        source: redis_data
+        target: /data
+        volume: {}
+networks:
+  default:
+    name: enchiridion-backend_default
+  internal-network:
+    name: enchiridion-backend_internal-network
+    driver: bridge
+volumes:
+  redis_data:
+    name: enchiridion-backend_redis_data
+[2025-06-06T14:10:54.168Z] Start: Run: docker inspect --type image python:3.12.7-slim
+[2025-06-06T14:10:54.189Z] Stop (21 ms): Run: docker inspect --type image python:3.12.7-slim
+[2025-06-06T14:10:54.192Z] Loading 144 extra certificates from /etc/ssl/certs/ca-certificates.crt.
+[2025-06-06T14:10:54.678Z] Start: Run: docker-credential-secret get
+[2025-06-06T14:10:54.684Z] Stop (6 ms): Run: docker-credential-secret get
+[2025-06-06T14:10:54.687Z] Stop (9 ms): Run: docker-credential-secret get
+[2025-06-06T14:11:03.053Z] Resolving Feature dependencies for 'ghcr.io/devcontainers/features/common-utils:2'...
+[2025-06-06T14:11:03.053Z] * Processing feature: ghcr.io/devcontainers/features/common-utils:2
+[2025-06-06T14:11:03.458Z] Start: Run: docker-credential-secret get
+[2025-06-06T14:11:03.461Z] Stop (3 ms): Run: docker-credential-secret get
+[2025-06-06T14:11:03.462Z] Stop (4 ms): Run: docker-credential-secret get
+[2025-06-06T14:11:03.943Z] Resolving Feature dependencies for 'ghcr.io/devcontainers-contrib/features/zsh-plugins:0'...
+[2025-06-06T14:11:03.943Z] * Processing feature: ghcr.io/devcontainers-contrib/features/zsh-plugins:0
+[2025-06-06T14:11:04.464Z] Files to omit: ''
+[2025-06-06T14:11:04.478Z] * Processing feature: ghcr.io/devcontainers/features/common-utils
+[2025-06-06T14:11:04.777Z] * Processing feature: ghcr.io/devcontainers/features/git
+[2025-06-06T14:11:05.034Z] Resolving Feature dependencies for 'ghcr.io/stuartleeks/dev-container-features/shell-history:0'...
+[2025-06-06T14:11:05.034Z] * Processing feature: ghcr.io/stuartleeks/dev-container-features/shell-history:0
+[2025-06-06T14:11:05.277Z] * Processing feature: ghcr.io/devcontainers/features/common-utils
+[2025-06-06T14:11:05.551Z] * Processing feature: ghcr.io/meaningful-ooo/devcontainer-features/fish
+[2025-06-06T14:11:05.845Z] Soft-dependency 'ghcr.io/devcontainers/features/git' is not required.  Removing from installation order...
+[2025-06-06T14:11:05.845Z] Soft-dependency 'ghcr.io/meaningful-ooo/devcontainer-features/fish' is not required.  Removing from installation order...
+[2025-06-06T14:11:05.847Z] * Fetching feature: common-utils_0_oci
+[2025-06-06T14:11:06.225Z] Files to omit: ''
+[2025-06-06T14:11:06.235Z] * Fetched feature: common-utils_0_oci version 2.5.3
+[2025-06-06T14:11:06.235Z] * Fetching feature: zsh-plugins_1_oci
+[2025-06-06T14:11:06.820Z] Files to omit: ''
+[2025-06-06T14:11:06.824Z] * Fetched feature: zsh-plugins_1_oci version 0.0.4
+[2025-06-06T14:11:06.825Z] * Fetching feature: shell-history_2_oci
+[2025-06-06T14:11:07.099Z] Files to omit: ''
+[2025-06-06T14:11:07.103Z] * Fetched feature: shell-history_2_oci version 0.0.6
+[2025-06-06T14:11:07.105Z] Start: Run: docker build -t dev_container_feature_content_temp -f /tmp/devcontainercli-hiansdt/container-features/0.76.0-1749219063049/Dockerfile.buildContent /tmp/devcontainercli-hiansdt/container-features/0.76.0-1749219063049
+[2025-06-06T14:11:07.118Z] DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+[2025-06-06T14:11:07.119Z] Sending build context to Docker daemon  87.04kB
+[2025-06-06T14:11:07.120Z] Step 1/2 : FROM scratch
+ ---> 
+Step 2/2 : COPY . /tmp/build-features/
+[2025-06-06T14:11:07.127Z]  ---> Using cache
+ ---> 0061bf1e00a5
+[2025-06-06T14:11:07.127Z] Successfully built 0061bf1e00a5
+[2025-06-06T14:11:07.168Z] Successfully tagged dev_container_feature_content_temp:latest
+[2025-06-06T14:11:07.172Z] Stop (67 ms): Run: docker build -t dev_container_feature_content_temp -f /tmp/devcontainercli-hiansdt/container-features/0.76.0-1749219063049/Dockerfile.buildContent /tmp/devcontainercli-hiansdt/container-features/0.76.0-1749219063049
+[2025-06-06T14:11:07.173Z] Docker Compose override file for building image:
+version: '3'
+
+services:
+  app:
+    build:
+      dockerfile: /tmp/devcontainercli-hiansdt/container-features/0.76.0-1749219063049/Dockerfile-with-features
+      args:
+        - _DEV_CONTAINERS_BASE_IMAGE=dev_container_auto_added_stage_label
+        - _DEV_CONTAINERS_IMAGE_USER=python
+        - _DEV_CONTAINERS_FEATURE_CONTENT_SOURCE=dev_container_feature_content_temp
+
+[2025-06-06T14:11:07.178Z] Start: Run: docker inspect --type image enchiridion-backend-app
+[2025-06-06T14:11:07.212Z] Stop (34 ms): Run: docker inspect --type image enchiridion-backend-app
+[2025-06-06T14:11:07.213Z] Docker Compose override file for creating container:
+version: '3'
+
+services:
+  'app':
+    entrypoint: ["/bin/sh", "-c", "echo Container started\n
+trap \"exit 0\" 15\n
+\n
+exec \"$$@\"\n
+while sleep 1 & wait $$!; do :; done", "-"]
+    labels:
+      - 'devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend'
+      - 'devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json'
+    volumes:
+      - 11q9svuuc9qm163fmirub20lu219281b6kjb549n0ds8a0ma0ps3-shellhistory:/dc/shellhistory
+      - vscode:/vscode
+volumes:
+  
+  11q9svuuc9qm163fmirub20lu219281b6kjb549n0ds8a0ma0ps3-shellhistory:
+  
+  vscode:
+    external: true
+[2025-06-06T14:11:07.213Z] Writing docker-compose.devcontainer.containerFeatures-1749219067213-3db06687-afc5-49dc-81ff-fd51ea6ebcf9.yml to /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose
+[2025-06-06T14:11:07.214Z] Start: Run: docker compose --project-name enchiridion-backend -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/docker-compose.yml -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/docker-compose.yml -f /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose/docker-compose.devcontainer.build-1749219067173.yml -f /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose/docker-compose.devcontainer.containerFeatures-1749219067213-3db06687-afc5-49dc-81ff-fd51ea6ebcf9.yml up -d --no-recreate
+[2025-06-06T14:11:07.309Z] WARN[0000] /home/hiansdt/projects/c3labs/vita/enchiridion-backend/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[2025-06-06T14:11:07.313Z] WARN[0000] /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[2025-06-06T14:11:07.315Z] WARN[0000] /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose/docker-compose.devcontainer.build-1749219067173.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[2025-06-06T14:11:07.318Z] WARN[0000] /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose/docker-compose.devcontainer.containerFeatures-1749219067213-3db06687-afc5-49dc-81ff-fd51ea6ebcf9.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[2025-06-06T14:11:07.421Z] 
+[2025-06-06T14:11:07.421Z] [+] Running 2/3
+ ✔ Container enchiridion-backend-redis  Running                            0.0s 
+ ✔ Container enchiridion-db             Runn...                            0.0s 
+ ⠋ Container django_app                 Starting                           0.1s 
+[2025-06-06T14:11:07.498Z] [+] Running 3/3
+ ✔ Container enchiridion-backend-redis  Running                            0.0s 
+ ✔ Container enchiridion-db             Runn...                            0.0s 
+ ✔ Container django_app                 Started                            0.2s 
+[2025-06-06T14:11:07.500Z] Stop (13403 ms): Run: docker events --format {{json .}} --filter event=start
+[2025-06-06T14:11:07.502Z] Stop (288 ms): Run: docker compose --project-name enchiridion-backend -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/docker-compose.yml -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/docker-compose.yml -f /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose/docker-compose.devcontainer.build-1749219067173.yml -f /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data/docker-compose/docker-compose.devcontainer.containerFeatures-1749219067213-3db06687-afc5-49dc-81ff-fd51ea6ebcf9.yml up -d --no-recreate
+[2025-06-06T14:11:07.502Z] Start: Run: docker ps -q -a --filter label=com.docker.compose.project=enchiridion-backend --filter label=com.docker.compose.service=app
+[2025-06-06T14:11:07.518Z] Stop (16 ms): Run: docker ps -q -a --filter label=com.docker.compose.project=enchiridion-backend --filter label=com.docker.compose.service=app
+[2025-06-06T14:11:07.518Z] Start: Run: docker inspect --type container 7cd6cd859c1a
+[2025-06-06T14:11:07.607Z] Stop (89 ms): Run: docker inspect --type container 7cd6cd859c1a
+[2025-06-06T14:11:07.609Z] Start: Inspecting container
+[2025-06-06T14:11:07.609Z] Start: Run: docker inspect --type container 7cd6cd859c1a48f78de839d3fddabeb0d3f1be2f5450e43392260bffd04ae7c8
+[2025-06-06T14:11:07.648Z] Stop (39 ms): Run: docker inspect --type container 7cd6cd859c1a48f78de839d3fddabeb0d3f1be2f5450e43392260bffd04ae7c8
+[2025-06-06T14:11:07.648Z] Stop (39 ms): Inspecting container
+[2025-06-06T14:11:07.650Z] Start: Run in container: /bin/sh
+[2025-06-06T14:11:07.659Z] Start: Run in container: uname -m
+[2025-06-06T14:11:07.675Z] Stop (25 ms): Run in container: /bin/sh
+[2025-06-06T14:11:07.676Z] Shell server terminated (code: 1, signal: null)
+[2025-06-06T14:11:07.676Z] Error response from daemon: container 7cd6cd859c1a48f78de839d3fddabeb0d3f1be2f5450e43392260bffd04ae7c8 is not running
+[2025-06-06T14:11:07.676Z] Start: Run in container:  (command -v getent >/dev/null 2>&1 && getent passwd 'python' || grep -E '^python|^[^:]*:[^:]*:python:' /etc/passwd || true)
+[2025-06-06T14:11:07.676Z] Stdin closed!
+[2025-06-06T14:11:07.677Z] Error: An error occurred setting up the container.
+[2025-06-06T14:11:07.677Z]     at u6 (/home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js:412:3947)
+[2025-06-06T14:11:07.677Z]     at async Y6 (/home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js:484:4015)
+[2025-06-06T14:11:07.678Z]     at async BC (/home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js:484:4957)
+[2025-06-06T14:11:07.678Z]     at async p7 (/home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js:665:202)
+[2025-06-06T14:11:07.678Z]     at async d7 (/home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js:664:14804)
+[2025-06-06T14:11:07.678Z]     at async /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js:484:1188
+[2025-06-06T14:11:07.684Z] Stop (13873 ms): Run: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --container-session-data-folder /tmp/devcontainers-459803e9-351b-4939-b636-990f9c48aa6d1749219053098 --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --include-configuration --include-merged-configuration
+[2025-06-06T14:11:07.685Z] Exit code 1
+[2025-06-06T14:11:07.691Z] Command failed: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /home/hiansdt/.config/Code/User/globalStorage/ms-vscode-remote.remote-containers/data --container-session-data-folder /tmp/devcontainers-459803e9-351b-4939-b636-990f9c48aa6d1749219053098 --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --id-label devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --include-configuration --include-merged-configuration
+[2025-06-06T14:11:07.691Z] Exit code 1

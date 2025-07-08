@@ -1,0 +1,7 @@
+2025-06-01 11:30:45.258 [info] Started local extension host with pid 87937.
+2025-06-01 11:30:45.424 [info] ComputeTargetPlatform: linux-x64
+2025-06-01 11:30:45.425 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-06-01 11:30:45.831 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-01 11:30:51.333 [info] [perf] Render performance baseline is 34ms
+2025-06-01 11:30:58.817 [warning] [backup tracker] suspended, ignoring unregister event file:///home/hiansdt/projects/c3labs/monitor/monitor-comex-frontend/.devcontainer/devcontainer.json 
+2025-06-01 11:30:58.817 [warning] [backup tracker] suspended, ignoring unregister event file:///home/hiansdt/projects/c3labs/monitor/monitor-comex-frontend/package.json 

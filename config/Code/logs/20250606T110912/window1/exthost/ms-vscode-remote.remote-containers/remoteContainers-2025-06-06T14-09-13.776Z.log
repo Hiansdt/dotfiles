@@ -1,0 +1,133 @@
+[2025-06-06T14:09:14.294Z] Dev Containers 0.413.0 in VS Code 1.100.2 (848b80aeb52026648a8ff9f7c45a9b0a80641e2e).
+[2025-06-06T14:09:14.294Z] Initializing configuration support...
+[2025-06-06T14:09:14.296Z] Internal initialization of dev container support package...
+[2025-06-06T14:09:17.034Z] Start: Run: docker version --format {{json .}}
+[2025-06-06T14:09:17.063Z] {"Client":{"Version":"28.1.1","ApiVersion":"1.49","DefaultAPIVersion":"1.49","GitCommit":"4eba377327","GoVersion":"go1.24.2","Os":"linux","Arch":"amd64","BuildTime":"Mon Apr 21 13:12:23 2025","Context":"default"},"Server":{"Platform":{"Name":""},"Components":[{"Name":"Engine","Version":"28.1.1","Details":{"ApiVersion":"1.49","Arch":"amd64","BuildTime":"Mon Apr 21 13:12:23 2025","Experimental":"false","GitCommit":"01f442b84d","GoVersion":"go1.24.2","KernelVersion":"6.14.6-zen1-1-zen","MinAPIVersion":"1.24","Os":"linux"}},{"Name":"containerd","Version":"v2.1.1","Details":{"GitCommit":"cb1076646aa3740577fafbf3d914198b7fe8e3f7.m"}},{"Name":"runc","Version":"1.3.0","Details":{"GitCommit":""}},{"Name":"docker-init","Version":"0.19.0","Details":{"GitCommit":"de40ad0"}}],"Version":"28.1.1","ApiVersion":"1.49","MinAPIVersion":"1.24","GitCommit":"01f442b84d","GoVersion":"go1.24.2","Os":"linux","Arch":"amd64","KernelVersion":"6.14.6-zen1-1-zen","BuildTime":"2025-04-21T13:12:23.000000000+00:00"}}
+[2025-06-06T14:09:17.064Z] Stop (30 ms): Run: docker version --format {{json .}}
+[2025-06-06T14:09:17.082Z] Running Dev Containers CLI:   read-configuration --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root
+[2025-06-06T14:09:17.082Z] Start: Run: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root
+[2025-06-06T14:09:17.218Z] @devcontainers/cli 0.76.0. Node.js v20.19.0. linux 6.14.6-zen1-1-zen x64.
+[2025-06-06T14:09:17.218Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json
+[2025-06-06T14:09:17.233Z] Stop (15 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json
+[2025-06-06T14:09:17.233Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend
+[2025-06-06T14:09:17.243Z] Stop (10 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend
+[2025-06-06T14:09:17.245Z] Resolving Feature dependencies for 'ghcr.io/devcontainers/features/common-utils:2'...
+[2025-06-06T14:09:17.245Z] * Processing feature: ghcr.io/devcontainers/features/common-utils:2
+[2025-06-06T14:09:17.246Z] Loading 144 extra certificates from /etc/ssl/certs/ca-certificates.crt.
+[2025-06-06T14:09:17.954Z] Start: Run: docker-credential-secret get
+[2025-06-06T14:09:17.957Z] Stop (3 ms): Run: docker-credential-secret get
+[2025-06-06T14:09:17.959Z] Stop (5 ms): Run: docker-credential-secret get
+[2025-06-06T14:09:18.411Z] Resolving Feature dependencies for 'ghcr.io/devcontainers-contrib/features/zsh-plugins:0'...
+[2025-06-06T14:09:18.411Z] * Processing feature: ghcr.io/devcontainers-contrib/features/zsh-plugins:0
+[2025-06-06T14:09:19.113Z] Files to omit: ''
+[2025-06-06T14:09:19.128Z] * Processing feature: ghcr.io/devcontainers/features/common-utils
+[2025-06-06T14:09:19.980Z] * Processing feature: ghcr.io/devcontainers/features/git
+[2025-06-06T14:09:20.240Z] Resolving Feature dependencies for 'ghcr.io/stuartleeks/dev-container-features/shell-history:0'...
+[2025-06-06T14:09:20.240Z] * Processing feature: ghcr.io/stuartleeks/dev-container-features/shell-history:0
+[2025-06-06T14:09:21.133Z] * Processing feature: ghcr.io/devcontainers/features/common-utils
+[2025-06-06T14:09:21.382Z] * Processing feature: ghcr.io/meaningful-ooo/devcontainer-features/fish
+[2025-06-06T14:09:21.890Z] Soft-dependency 'ghcr.io/devcontainers/features/git' is not required.  Removing from installation order...
+[2025-06-06T14:09:21.890Z] Soft-dependency 'ghcr.io/meaningful-ooo/devcontainer-features/fish' is not required.  Removing from installation order...
+[2025-06-06T14:09:21.891Z] * Fetching feature: common-utils_0_oci
+[2025-06-06T14:09:22.287Z] Files to omit: ''
+[2025-06-06T14:09:22.296Z] * Fetched feature: common-utils_0_oci version 2.5.3
+[2025-06-06T14:09:22.296Z] * Fetching feature: zsh-plugins_1_oci
+[2025-06-06T14:09:22.621Z] Files to omit: ''
+[2025-06-06T14:09:22.624Z] * Fetched feature: zsh-plugins_1_oci version 0.0.4
+[2025-06-06T14:09:22.624Z] * Fetching feature: shell-history_2_oci
+[2025-06-06T14:09:23.073Z] Files to omit: ''
+[2025-06-06T14:09:23.078Z] * Fetched feature: shell-history_2_oci version 0.0.6
+[2025-06-06T14:09:23.171Z] Start: Run: docker compose version --short
+[2025-06-06T14:09:23.228Z] Stop (57 ms): Run: docker compose version --short
+[2025-06-06T14:09:23.228Z] Docker Compose version: 2.36.1
+[2025-06-06T14:09:23.228Z] Start: Run: docker compose -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/docker-compose.yml -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/docker-compose.yml --profile * config
+[2025-06-06T14:09:23.309Z] Stop (81 ms): Run: docker compose -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/docker-compose.yml -f /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/docker-compose.yml --profile * config
+[2025-06-06T14:09:23.309Z] name: enchiridion-backend
+services:
+  app:
+    build:
+      context: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+      dockerfile: Dockerfile
+    command:
+      - /bin/sh
+      - -c
+      - while sleep 1000; do :; done
+    container_name: django_app
+    depends_on:
+      redis:
+        condition: service_started
+        required: true
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+    networks:
+      internal-network: null
+    ports:
+      - mode: ingress
+        target: 8001
+        published: "8001"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+        target: /app
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /home/hiansdt/projects/c3labs/vita/enchiridion-backend
+        target: /home/python/app
+        bind:
+          create_host_path: true
+  db:
+    container_name: enchiridion-db
+    environment:
+      POSTGRES_DB: enchiridion
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres:13
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "15433"
+        protocol: tcp
+  redis:
+    command:
+      - redis-server
+      - --appendonly
+      - "yes"
+    container_name: enchiridion-backend-redis
+    image: redis:alpine
+    networks:
+      internal-network: null
+    restart: always
+    volumes:
+      - type: volume
+        source: redis_data
+        target: /data
+        volume: {}
+networks:
+  default:
+    name: enchiridion-backend_default
+  internal-network:
+    name: enchiridion-backend_internal-network
+    driver: bridge
+volumes:
+  redis_data:
+    name: enchiridion-backend_redis_data
+[2025-06-06T14:09:23.314Z] Start: Run: docker inspect --type image python:3.12.7-slim
+[2025-06-06T14:09:23.327Z] Stop (13 ms): Run: docker inspect --type image python:3.12.7-slim
+[2025-06-06T14:09:23.882Z] Start: Run: docker-credential-secret get
+[2025-06-06T14:09:23.889Z] Stop (7 ms): Run: docker-credential-secret get
+[2025-06-06T14:09:23.893Z] Stop (11 ms): Run: docker-credential-secret get
+[2025-06-06T14:09:27.574Z] Stop (10492 ms): Run: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root
+[2025-06-06T14:09:27.903Z] Start: Run: docker compose version --short
+[2025-06-06T14:09:27.966Z] Stop (63 ms): Run: docker compose version --short
+[2025-06-06T14:09:27.966Z] Docker Compose version: 2.36.1
+[2025-06-06T14:09:27.967Z] Start: Run: docker compose version --short
+[2025-06-06T14:09:28.027Z] Stop (60 ms): Run: docker compose version --short
+[2025-06-06T14:09:28.027Z] 2.36.1
+[2025-06-06T14:09:28.028Z] 
+[2025-06-06T14:09:28.029Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json
+[2025-06-06T14:09:28.051Z] Stop (22 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json

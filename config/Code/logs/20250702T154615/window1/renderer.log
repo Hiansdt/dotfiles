@@ -1,0 +1,6 @@
+2025-07-02 15:46:16.006 [info] Started local extension host with pid 145518.
+2025-07-02 15:46:16.035 [info] ComputeTargetPlatform: linux-x64
+2025-07-02 15:46:16.980 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-02 15:46:18.749 [info] [perf] Render performance baseline is 13ms
+2025-07-02 15:46:18.974 [info] Auto updating outdated extensions. ms-vscode-remote.remote-containers, vue.volar
+2025-07-02 15:46:19.649 [info] Auto updating outdated extensions. ms-vscode-remote.remote-containers, vue.volar

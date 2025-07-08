@@ -1,8 +1,0 @@
-2025-05-23 10:51:07.326 [info] ComputeTargetPlatform: linux-x64
-2025-05-23 10:51:15.592 [info] ComputeTargetPlatform: linux-x64
-2025-05-23 10:51:20.782 [info] Getting Manifest... ms-vscode-remote.remote-containers
-2025-05-23 10:51:20.927 [info] Installing extension: ms-vscode-remote.remote-containers {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/hiansdt/.vscode/extensions/extensions.json","path":"/home/hiansdt/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.2","date":"2025-05-14T21:47:40.416Z"}}
-2025-05-23 10:51:22.373 [info] Extension signature verification result for ms-vscode-remote.remote-containers: Success. Internal Code: 0. Executed: true. Duration: 740ms.
-2025-05-23 10:51:22.459 [info] Extracted extension to file:///home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0: ms-vscode-remote.remote-containers
-2025-05-23 10:51:22.470 [info] Renamed to /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0
-2025-05-23 10:51:22.485 [info] Extension installed successfully: ms-vscode-remote.remote-containers vscode-userdata:/home/hiansdt/.vscode/extensions/extensions.json

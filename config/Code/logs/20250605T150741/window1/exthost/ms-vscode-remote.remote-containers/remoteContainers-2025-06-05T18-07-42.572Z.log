@@ -1,0 +1,31 @@
+[2025-06-05T18:07:43.471Z] Dev Containers 0.413.0 in VS Code 1.100.2 (848b80aeb52026648a8ff9f7c45a9b0a80641e2e).
+[2025-06-05T18:07:43.471Z] Initializing configuration support...
+[2025-06-05T18:07:43.472Z] Internal initialization of dev container support package...
+[2025-06-05T18:07:46.259Z] Start: Run: docker version --format {{json .}}
+[2025-06-05T18:07:46.289Z] {"Client":{"Version":"28.1.1","ApiVersion":"1.49","DefaultAPIVersion":"1.49","GitCommit":"4eba377327","GoVersion":"go1.24.2","Os":"linux","Arch":"amd64","BuildTime":"Mon Apr 21 13:12:23 2025","Context":"default"},"Server":null}
+[2025-06-05T18:07:46.291Z] Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+
+[2025-06-05T18:07:46.292Z] Stop (33 ms): Run: docker version --format {{json .}}
+[2025-06-05T18:07:46.293Z] Exit code 1
+[2025-06-05T18:08:06.135Z] Start: Run: docker version --format {{json .}}
+[2025-06-05T18:08:06.208Z] {"Client":{"Version":"28.1.1","ApiVersion":"1.49","DefaultAPIVersion":"1.49","GitCommit":"4eba377327","GoVersion":"go1.24.2","Os":"linux","Arch":"amd64","BuildTime":"Mon Apr 21 13:12:23 2025","Context":"default"},"Server":{"Platform":{"Name":""},"Components":[{"Name":"Engine","Version":"28.1.1","Details":{"ApiVersion":"1.49","Arch":"amd64","BuildTime":"Mon Apr 21 13:12:23 2025","Experimental":"false","GitCommit":"01f442b84d","GoVersion":"go1.24.2","KernelVersion":"6.14.6-zen1-1-zen","MinAPIVersion":"1.24","Os":"linux"}},{"Name":"containerd","Version":"v2.1.1","Details":{"GitCommit":"cb1076646aa3740577fafbf3d914198b7fe8e3f7.m"}},{"Name":"runc","Version":"1.3.0","Details":{"GitCommit":""}},{"Name":"docker-init","Version":"0.19.0","Details":{"GitCommit":"de40ad0"}}],"Version":"28.1.1","ApiVersion":"1.49","MinAPIVersion":"1.24","GitCommit":"01f442b84d","GoVersion":"go1.24.2","Os":"linux","Arch":"amd64","KernelVersion":"6.14.6-zen1-1-zen","BuildTime":"2025-04-21T13:12:23.000000000+00:00"}}
+[2025-06-05T18:08:06.209Z] Stop (74 ms): Run: docker version --format {{json .}}
+[2025-06-05T18:08:06.235Z] Running Dev Containers CLI:   read-configuration --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root
+[2025-06-05T18:08:06.237Z] Start: Run: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root
+[2025-06-05T18:08:06.379Z] @devcontainers/cli 0.76.0. Node.js v20.19.0. linux 6.14.6-zen1-1-zen x64.
+[2025-06-05T18:08:06.379Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json
+[2025-06-05T18:08:06.394Z] Stop (15 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json
+[2025-06-05T18:08:06.394Z] Start: Run: docker inspect --type container 93ec041d8e6d
+[2025-06-05T18:08:06.411Z] Stop (17 ms): Run: docker inspect --type container 93ec041d8e6d
+[2025-06-05T18:08:06.418Z] Stop (181 ms): Run: /opt/visual-studio-code/code /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.413.0/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /home/hiansdt/projects/c3labs/vita/enchiridion-backend --log-level debug --log-format json --config /home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json --include-merged-configuration --mount-workspace-git-root
+[2025-06-05T18:08:06.858Z] Start: Run: docker compose version --short
+[2025-06-05T18:08:07.222Z] Stop (364 ms): Run: docker compose version --short
+[2025-06-05T18:08:07.222Z] Docker Compose version: 2.36.1
+[2025-06-05T18:08:07.222Z] Start: Run: docker compose version --short
+[2025-06-05T18:08:07.281Z] Stop (59 ms): Run: docker compose version --short
+[2025-06-05T18:08:07.281Z] 2.36.1
+[2025-06-05T18:08:07.282Z] 
+[2025-06-05T18:08:07.282Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json
+[2025-06-05T18:08:07.299Z] Stop (17 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/hiansdt/projects/c3labs/vita/enchiridion-backend --filter label=devcontainer.config_file=/home/hiansdt/projects/c3labs/vita/enchiridion-backend/.devcontainer/devcontainer.json
+[2025-06-05T18:08:07.300Z] Start: Run: docker inspect --type container 93ec041d8e6d
+[2025-06-05T18:08:07.319Z] Stop (19 ms): Run: docker inspect --type container 93ec041d8e6d

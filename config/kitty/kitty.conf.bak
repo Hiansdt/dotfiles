@@ -5,11 +5,10 @@ italic_font      auto
 bold_italic_font auto
 
 font_size 11
-background_opacity 0.83
+background_opacity 1
 confirm_os_window_close 0 
 
-
-
+startup_session ~/.config/kitty/kittysession.conf
 
 # vim:ft=kitty
 
@@ -64,6 +63,15 @@ confirm_os_window_close 0
 
 
 # BEGIN_KITTY_THEME
-# Adventure Time
+# Catppuccin-Mocha
 include current-theme.conf
 # END_KITTY_THEME
+#
+font_family      JetBrainsMono Nerd Font
+font_size 10.0
+
+window_padding_width 10
+
+scrollback_lines 10000
+
+allow_remote_control yes

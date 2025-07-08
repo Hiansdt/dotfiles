@@ -1,6 +1,0 @@
-2025-05-23 10:58:19.446 [error] #21: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch
-2025-05-23 10:58:21.650 [error] #23: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Failed to fetch
-2025-05-23 11:04:34.068 [error] #40: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
-2025-05-23 11:12:03.093 [error] #59: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
-2025-05-23 13:00:32.773 [error] #32: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
-2025-05-23 13:09:33.860 [error] #69: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

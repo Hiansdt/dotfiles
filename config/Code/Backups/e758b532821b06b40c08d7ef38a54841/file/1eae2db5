@@ -1,0 +1,15 @@
+file:///home/hiansdt/projects/c3labs/monitor/monitor-comex-frontend/src/main.ts {"mtime":1748723061266,"ctime":1748723061266,"size":411,"etag":"3eaq5k822d8","orphaned":false,"typeId":""}
+import { createApp } from "vue";
+
+import App from "./App.vue";
+import { registerPlugins } from "@core/plugins";
+import  FloatingActions  from "@core/components/FloatingActions.vue"
+
+import "@core/scss/template/index.scss"
+import '@styles/styles.scss'
+import "vue3-toastify/dist/index.css";
+
+const app = createApp(App);
+app.component("FloatingActions", FloatingActions);
+registerPlugins(app);
+app.mount("#app");
