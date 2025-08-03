@@ -1,0 +1,16 @@
+2025-07-31 13:57:47.159 [info] ComputeTargetPlatform: linux-x64
+2025-07-31 13:57:49.351 [info] ComputeTargetPlatform: linux-x64
+2025-07-31 13:57:51.453 [info] Getting Manifest... ms-vscode-remote.remote-containers
+2025-07-31 13:57:51.454 [info] Getting Manifest... vue.volar
+2025-07-31 13:57:51.521 [info] Installing extension: ms-vscode-remote.remote-containers {"productVersion":{"version":"1.100.2","date":"2025-05-14T21:47:40.416Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/hiansdt/.vscode/extensions/extensions.json","path":"/home/hiansdt/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-07-31 13:57:51.530 [info] Installing extension: vue.volar {"productVersion":{"version":"1.100.2","date":"2025-05-14T21:47:40.416Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/hiansdt/.vscode/extensions/extensions.json","path":"/home/hiansdt/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-07-31 13:57:52.725 [info] Extension signature verification result for vue.volar: Success. Internal Code: 0. Executed: true. Duration: 752ms.
+2025-07-31 13:57:52.754 [info] Extension signature verification result for ms-vscode-remote.remote-containers: Success. Internal Code: 0. Executed: true. Duration: 775ms.
+2025-07-31 13:57:52.761 [info] Extracted extension to file:///home/hiansdt/.vscode/extensions/vue.volar-3.0.4: vue.volar
+2025-07-31 13:57:52.770 [info] Renamed to /home/hiansdt/.vscode/extensions/vue.volar-3.0.4
+2025-07-31 13:57:52.779 [info] Marked extension as removed vue.volar-2.2.10
+2025-07-31 13:57:52.784 [info] Extension installed successfully: vue.volar vscode-userdata:/home/hiansdt/.vscode/extensions/extensions.json
+2025-07-31 13:57:52.855 [info] Extracted extension to file:///home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.422.1: ms-vscode-remote.remote-containers
+2025-07-31 13:57:52.872 [info] Renamed to /home/hiansdt/.vscode/extensions/ms-vscode-remote.remote-containers-0.422.1
+2025-07-31 13:57:52.887 [info] Marked extension as removed ms-vscode-remote.remote-containers-0.413.0
+2025-07-31 13:57:52.892 [info] Extension installed successfully: ms-vscode-remote.remote-containers vscode-userdata:/home/hiansdt/.vscode/extensions/extensions.json

@@ -13,11 +13,7 @@
                 "folderUri": "file:///home/hiansdt/projects/c3labs/monitor/monitor-comex-frontend"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1751640648553"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
@@ -28,11 +24,7 @@
             "file:///home/hiansdt/projects/c3labs/vita/enchiridion-frontend": "__default__profile__",
             "file:///home/hiansdt/projects/c3labs/monitor/monitor-comex-frontend": "__default__profile__"
         },
-        "emptyWindows": {
-            "1749843364966": "__default__profile__",
-            "1751482447159": "__default__profile__",
-            "1751640648553": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e2e",
@@ -59,7 +51,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 236,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -89,19 +81,24 @@
                 "e5260a5c472ab9edf5ff566060df7fcf": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
+                },
+                "933ea28c51445ded8fe9a3d498a2be9c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
                 }
             }
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/hiansdt/.config/Code/Backups/1751640648553",
+            "folder": "file:///home/hiansdt/projects/c3labs/monitor/monitor-comex-frontend",
+            "backupPath": "/home/hiansdt/.config/Code/Backups/e758b532821b06b40c08d7ef38a54841",
             "uiState": {
                 "mode": 1,
-                "x": 2887,
-                "y": 23,
-                "width": 930,
-                "height": 1010
+                "x": 967,
+                "y": 65,
+                "width": 888,
+                "height": 950
             }
         },
         "openedWindows": []

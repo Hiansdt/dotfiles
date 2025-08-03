@@ -1,0 +1,21 @@
+modes:
+  work:
+    - label: firefox
+      cmd: firefox               # executable
+      workspace: "1"
+      match_class: "Firefox"  #i3 window class
+
+    - label: frontend
+      cmd: alacritty
+      #args: ["-e", "zsh", "-c", "cd /home/hiansdt/projects/ && nvim ."]
+      args: ["-e", "nvim"]
+      workspace: "2"
+      mark: frontend_buf
+      match_class: "Alacritty"
+
+    - label: backend
+      cmd: alacritty
+      workspace: "3"
+      args: ["-e", "nvim"]
+      mark: backend_buf
+      match_class: "Alacritty"
