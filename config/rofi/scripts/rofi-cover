@@ -1,0 +1,12 @@
+#!/bin/sh
+
+export MPD_HOST="/tmp/mpd_socket"
+
+MPC_BIN="/usr/sbin/mpc" 
+
+mpc idleloop player | while read event; do
+    TITLE=$("$MPC_BIN" --format "%title%" current)
+
+    MUSIC_PATH=$(find ~/music/* -type f -iname "*${TITLE}*" | head -n 1)
+    yes y | ffmpeg -i "$MUSIC_PATH" -an -vcodec copy cover.jpg
+done

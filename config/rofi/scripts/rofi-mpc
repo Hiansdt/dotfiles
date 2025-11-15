@@ -1,0 +1,124 @@
+#!/usr/bin/env bash
+
+get_now_playing_line() {
+  song_json="$(rmpc song 2>/dev/null || echo '')"
+
+  if [ -z "$song_json" ]; then
+    printf 'Nothing playing'
+    return
+  fi
+
+  title=$(printf '%s\n' "$song_json" | jq -r '.metadata.title // "Unknown title"')
+  artist=$(printf '%s\n' "$song_json" | jq -r '.metadata.artist // "Unknown artist"')
+
+  printf '%s – %s' "$artist" "$title"
+}
+
+send_now_playing_notification() {
+  song_json="$(rmpc song 2>/dev/null || echo '')"
+
+  if [ -z "$song_json" ]; then
+    notify-send -t 2000 "Playing" "Nothing playing"
+    return
+  fi
+
+  title=$(printf '%s\n' "$song_json" | jq -r '.metadata.title // "Unknown title"')
+  artist=$(printf '%s\n' "$song_json" | jq -r '.metadata.artist // "Unknown artist"')
+  body="$artist – $title"
+
+  notify-send -t 2000 "  Playing" "$body"
+}
+
+print_main_menu() {
+  printf '\0markup-rows\x1ftrue\n'
+  now_playing="$(get_now_playing_line)"
+
+  cat <<EOF
+<span foreground="#94e2d5" >--   Playing: $now_playing </span>
+<span foreground="#f9e2af" >  Next</span>
+<span foreground="#f9e2af" >  Previous</span>
+<span foreground="#f38ba8">  Stop</span>
+<span foreground="#74c7ec">咽  Toggle Random</span>
+<span foreground="#f5c2e7" >  Toggle Repeat</span>
+<span foreground="#cba6f7">  Pick Song</span>
+EOF
+}
+
+debug_log="/tmp/rofi-mpd-debug.log"
+MPC_BIN="/usr/sbin/mpc"
+export MPD_HOST="/tmp/mpd_socket"
+
+
+print_queue_menu() {
+  printf '\0markup-rows\x1ffalse\n'
+  printf '\0prompt\x1fPick song\n'
+
+  playlist="$("$MPC_BIN" playlist 2>/dev/null)"
+
+  if [ -z "$playlist" ]; then
+    echo "No playlist / cannot connect to MPD"
+    return
+  fi
+
+  printf '%s\n' "$playlist" | nl -ba
+}
+
+# --- entrypoint ---
+
+# First call: no selection yet, show main menu
+if [ -z "$1" ]; then
+  print_main_menu
+  exit 0
+fi
+
+# If user clicked the "Playing: ..." line: do nothing, just redraw main menu
+# if printf '%s\n' "$1" | grep -q 'Playing:'; then
+#   print_main_menu
+#   exit 0
+# fi
+
+# If user chose "Pick Song": show queue in the SAME rofi window
+if printf '%s\n' "$1" | grep -q 'Pick Song'; then
+  print_queue_menu
+  exit 0
+fi
+
+# If the selection looks like "  12  Some track name" -> queue item
+if printf '%s\n' "$1" | grep -qE '^[[:space:]]*[0-9]+'; then
+  pos="$(printf '%s\n' "$1" | awk '{print $1}')"
+  if [ -n "$pos" ]; then
+    mpc play "$pos" >/dev/null 2>&1
+    send_now_playing_notification
+  fi
+  exit 0
+fi
+
+# Otherwise: normal control actions
+case "$1" in
+  *Playing*)
+    rmpc togglepause
+    ;;
+
+  *Next*)
+    rmpc next
+    send_now_playing_notification
+    ;;
+
+  *Previous*)
+    rmpc prev
+    send_now_playing_notification
+    ;;
+
+  *Stop*)
+    rmpc stop
+    notify-send -t 2000 "Playing" "Stopped"
+    ;;
+
+  *Toggle\ Random*)
+    rmpc togglerandom
+    ;;
+
+  *Toggle\ Repeat*)
+    rmpc togglerepeat
+    ;;
+esac

@@ -1,20 +1,28 @@
 configuration{
-    modi: "run,drun,window";
-    show-icons: false;
-    terminal: "kitty";
-    location: 0;
-    disable-history: false;
-    hide-scrollbar: true;
-    display-drun: "   Apps ";
-    display-run: "   Run ";
-    display-window: "   Window";
-    display-Network: " 󰤨  Network";
-    display-clipboard: "  Clipboard";
-    sidebar-mode: true;
+  modi: "run,drun,window";
+  show-icons: true;
+  terminal: "kitty";
+  location: 0;
+  disable-history: false;
+  hide-scrollbar: true;
+  display-drun: "   Apps ";
+  display-run: "   Run ";
+  display-window: "   Window";
+  display-network: " 󰤨  Network";
+  display-clipboard: "  Clipboard";
+  sidebar-mode: true;
+  markup-rows: true;
+  kb-row-up:   "Up,alt+k";
+  kb-row-down: "Down,alt+j";
+  kb-accept-entry: "Return,Control+i";
+}
+
+element-text {
+  use-markup: true;
 }
 
 @theme "catppuccin-mocha"
 
 * {
-    font: "JetBrainsMono 10";
+  font: "JetBrainsMono 12";
 }
