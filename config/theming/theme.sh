@@ -2,7 +2,8 @@
 
 THEME_DIR="$HOME/.config/theming/themes"
 CURRENT="$HOME/.config/theming/current"
-POLYBAR_CONFIG="$HOME/.config/polybar/config.ini"
+POLYBAR_CONFIG_MAIN="$HOME/.config/polybar/config-main.ini"
+POLYBAR_CONFIG_SECONDARY="$HOME/.config/polybar/config-secondary.ini"
 NVIM_CONFIG="$HOME/.config/nvim/init.lua"
 
 if [ $# -eq 0 ]; then
@@ -33,7 +34,8 @@ echo "$THEME" >"$CURRENT"
 kitty +kitten themes --reload-in=all "$KITTY_THEME"
 
 # Set Polybar colorscheme
-sed -i "s|include-file = \$HOME/.config/polybar/colors.*\.ini|$POLYBAR_INCLUDE|" "$POLYBAR_CONFIG"
+sed -i "s|include-file = \$HOME/.config/polybar/colors.*\.ini|$POLYBAR_INCLUDE|" "$POLYBAR_CONFIG_MAIN"
+sed -i "s|include-file = \$HOME/.config/polybar/colors.*\.ini|$POLYBAR_INCLUDE|" "$POLYBAR_CONFIG_SECONDARY"
 
 # Set Neovim colorscheme
 sed -i "s|vim.cmd.colorscheme(\".*\")|vim.cmd.colorscheme(\"$NVIM_COLORSCHEME\")|" "$NVIM_CONFIG"
@@ -42,6 +44,6 @@ sed -i "s|vim.cmd.colorscheme(\".*\")|vim.cmd.colorscheme(\"$NVIM_COLORSCHEME\")
 bash "$HOME/.config/polybar/launch.sh"
 
 # Set wallpaper
-feh --bg-scale "$WALLPAPER"
+feh --no-fehbg --bg-fill "$WALLPAPER"
 
 echo "Theme switched to $THEME"

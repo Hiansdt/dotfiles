@@ -34,7 +34,7 @@ print_main_menu() {
   now_playing="$(get_now_playing_line)"
 
   cat <<EOF
-<span foreground="#94e2d5" >--   Playing: $now_playing </span>
+<span foreground="#94e2d5" >--  : $now_playing </span>
 <span foreground="#f9e2af" >  Next</span>
 <span foreground="#f9e2af" >  Previous</span>
 <span foreground="#f38ba8">  Stop</span>
@@ -95,7 +95,7 @@ fi
 
 # Otherwise: normal control actions
 case "$1" in
-  *Playing*)
+  *--*)
     rmpc togglepause
     ;;
 
